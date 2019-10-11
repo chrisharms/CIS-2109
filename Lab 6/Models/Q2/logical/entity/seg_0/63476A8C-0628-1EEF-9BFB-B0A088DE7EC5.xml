@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63476A8C-0628-1EEF-9BFB-B0A088DE7EC5" name="Tablet_Computer">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:05:07 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Computer_Type_ID" id="4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:05:23 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Computer_Name" id="1176676A-BF9F-2C7A-BC68-A6DA75B1996B">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:05:48 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Storage_Amount" id="B15AF0D1-C34E-3E91-660F-D86B752C8D6C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:06:04 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Display_Type" id="CDEA3D7D-D5EE-B1B1-99FA-EF61684CBF32">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:07:12 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Processor_Type" id="B51D451A-56DD-7461-141E-A07EAF319B6E">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:08:53 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Processor_ID" id="CDCB37C8-CD66-D1B4-B085-698B151F37C4">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:22:40 UTC</createdTime>
+<generatorID>00BC5363-7646-1A42-7866-80998920FA75</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<referedAttribute>17B9A35F-1FD9-CF06-496C-E1876D23C118</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Computer_Type_ID1" id="773DDD2F-BB24-8FC9-E920-657D6CA55EC9">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:22:40 UTC</createdTime>
+<generatorID>00BC5363-7646-1A42-7866-80998920FA75</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<referedAttribute>F329C014-B5C1-CC0B-B69F-7DAAA32CD8D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4406095-051F-5564-9556-61FC9B93D153" name="Tablet_Computer PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 19:05:38 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
