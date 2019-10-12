@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED29662C-57D3-151B-737A-F182BC2FF913" name="Instrument">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 15:35:27 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Instrument_ID" id="C2423F2D-3B61-153D-DDF8-532BE3D333D6">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 15:35:42 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Instrument_Name" id="2F748961-53C9-0749-DE32-5C45B2415198">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 15:36:50 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F500C11E-6445-29D3-5CE2-57DDD906F979" name="Instrument PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 15:37:30 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2423F2D-3B61-153D-DDF8-532BE3D333D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

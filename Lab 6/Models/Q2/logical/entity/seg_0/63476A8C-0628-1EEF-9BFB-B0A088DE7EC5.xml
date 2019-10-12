@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Computer_Type_ID" id="4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D">
+<Attribute name="Type_ID" id="4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D">
 <createdBy>charm</createdBy>
 <createdTime>2019-10-11 19:05:23 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Computer_Name" id="1176676A-BF9F-2C7A-BC68-A6DA75B1996B">
+<Attribute name="Name" id="1176676A-BF9F-2C7A-BC68-A6DA75B1996B">
 <createdBy>charm</createdBy>
 <createdTime>2019-10-11 19:05:48 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>

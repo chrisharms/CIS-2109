@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Inspection" directorySegmentName="seg_0" id="39CFF896-89E4-F2D9-0E80-C83F285292A3">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 16:08:17 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<sourcePk>03C60189-23CD-EA9F-3550-E3B24AAE1086</sourcePk>
+<targetPk>EF1D97AC-0A8F-9A3D-02BB-D90980C9CB8E</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>Inspects</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A4E7B3E9-D4AA-B7D6-5C67-CFE0154ACDF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EB387FD-8FFA-7558-EA8D-83BF003EE977</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Inspection_Date" id="CC310B7B-153A-177E-2F63-CE37EAB6EA09">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 16:11:20 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Quality_Grade" id="1E33321C-DE58-8E00-92D2-A3939E00A242">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-11 16:12:03 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="A29DED27-9329-F76A-B4D9-52D5D0E9E872" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
