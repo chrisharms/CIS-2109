@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63476A8C-0628-1EEF-9BFB-B0A088DE7EC5" name="Tablet_Computer">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C66FBA3-86FB-7886-600A-0A0D0D8E4F66" name="Certification">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:05:07 UTC</createdTime>
+<createdTime>2019-10-14 17:22:13 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Type_ID" id="4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D">
+<Attribute name="Cert_ID" id="7B70DA09-0B2D-6FC0-048B-D602A15A6D9A">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:05:23 UTC</createdTime>
+<createdTime>2019-10-14 17:23:49 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="1176676A-BF9F-2C7A-BC68-A6DA75B1996B">
+<Attribute name="Pass_Date" id="4FB0FD5F-3961-62A1-2828-0DC44AFECF17">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:05:48 UTC</createdTime>
+<createdTime>2019-10-14 17:23:07 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -37,12 +37,12 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Storage_Amount" id="B15AF0D1-C34E-3E91-660F-D86B752C8D6C">
+<Attribute name="Length_Of_Cert" id="BE0E6984-90C0-65D8-0A11-8421F8394C44">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:06:04 UTC</createdTime>
+<createdTime>2019-10-14 17:28:08 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -53,43 +53,43 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Display_Type" id="CDEA3D7D-D5EE-B1B1-99FA-EF61684CBF32">
+<Attribute name="Employee_ID" id="7E488020-5C51-049C-A5B8-CC602220F50F">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:07:12 UTC</createdTime>
+<createdTime>2019-10-14 17:29:27 UTC</createdTime>
+<generatorID>4A91ACA7-7A19-12E8-67DD-52708796968D</generatorID>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Computer_Type_ID1" id="773DDD2F-BB24-8FC9-E920-657D6CA55EC9">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:22:40 UTC</createdTime>
-<generatorID>00BC5363-7646-1A42-7866-80998920FA75</generatorID>
-<ownerDesignName>Q2</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="false"/>
-</engineerTo>
-<referedAttribute>F329C014-B5C1-CC0B-B69F-7DAAA32CD8D1</referedAttribute>
+<referedAttribute>E0F6FCAA-24A9-0C7B-305D-CAB4CE43C748</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Processor_ID" id="83C2234B-74C2-7EC0-4D31-02CBF4E55C7E">
+<Attribute name="OS_ID" id="9FFC9E62-9554-D64D-C939-75BD5E7B92ED">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-14 17:39:01 UTC</createdTime>
-<generatorID>38DF7616-D63B-EC39-BD67-AA7B7914259D</generatorID>
+<createdTime>2019-10-14 17:29:50 UTC</createdTime>
+<generatorID>8D2D1394-A3EF-47E0-038F-4029775479FC</generatorID>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
 </engineerTo>
-<referedAttribute>17B9A35F-1FD9-CF06-496C-E1876D23C118</referedAttribute>
+<referedAttribute>3CD31BFA-7939-3962-C762-8BF6DB988BEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_ID" id="5559C41E-91EB-D41D-6283-92B1BA1F3EB2">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-14 17:30:00 UTC</createdTime>
+<generatorID>80F96BE9-2F4F-74D9-6113-21E13184B8F4</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<referedAttribute>4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -97,16 +97,19 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F4406095-051F-5564-9556-61FC9B93D153" name="Tablet_Computer PK">
+<identifier id="7DA17F64-7E19-36B9-CECD-ED44FEB52674" name="Certification PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-11 19:05:38 UTC</createdTime>
+<createdTime>2019-10-14 17:23:58 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D</attributeRef>
+<attributeRef>7B70DA09-0B2D-6FC0-048B-D602A15A6D9A</attributeRef>
+<attributeRef>7E488020-5C51-049C-A5B8-CC602220F50F</attributeRef>
+<attributeRef>9FFC9E62-9554-D64D-C939-75BD5E7B92ED</attributeRef>
+<attributeRef>5559C41E-91EB-D41D-6283-92B1BA1F3EB2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

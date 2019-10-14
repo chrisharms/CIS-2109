@@ -27,19 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Type_ID" id="F06629FF-CA00-CF14-E816-C105894B1092">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-11 23:28:16 UTC</createdTime>
-<ownerDesignName>Q2</ownerDesignName>
-<engineerTo>
-<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Shipped_Date" id="A726E338-22CF-BF7C-D6DC-4C519556E5B7">
 <createdBy>charm</createdBy>
 <createdTime>2019-10-11 23:30:59 UTC</createdTime>
@@ -51,6 +38,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vendor_ID" id="58E9126B-A49E-8DB2-C019-B156FB9E05D8">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-14 17:04:48 UTC</createdTime>
+<generatorID>B6567697-4013-86D2-EE6B-28006D9D34AA</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<referedAttribute>ADD5D72E-F787-ABE0-F479-91AB5B10906F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_ID1" id="8E1A4027-A378-B363-35F1-41EC505EBD41">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-14 17:05:25 UTC</createdTime>
+<generatorID>992E25BD-C723-8750-9340-C136AAE57EDC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
+</engineerTo>
+<referedAttribute>4CC4DDBF-8A1D-C99E-42B1-E6F21B70F72D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -65,6 +80,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0D64E269-F89F-1D05-9FAC-286AECAEEAC0</attributeRef>
+<attributeRef>58E9126B-A49E-8DB2-C019-B156FB9E05D8</attributeRef>
+<attributeRef>8E1A4027-A378-B363-35F1-41EC505EBD41</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
