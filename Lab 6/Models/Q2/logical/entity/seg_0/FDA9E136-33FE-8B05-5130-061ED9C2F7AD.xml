@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B00FDC93-4202-D32D-09D7-AE91EBC25E86" name="Vendor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDA9E136-33FE-8B05-5130-061ED9C2F7AD" name="Customer">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-14 16:52:10 UTC</createdTime>
+<createdTime>2019-10-15 19:59:55 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Vendor_ID" id="ADD5D72E-F787-ABE0-F479-91AB5B10906F">
+<Attribute name="Customer_ID" id="A9207DCC-F02A-31BE-0181-F56B6169FCBC">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-14 16:53:06 UTC</createdTime>
+<createdTime>2019-10-15 20:00:12 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Vendor_Name" id="639C013D-9430-E7C4-97B0-0ED34E70679D">
+<Attribute name="Customer_Name" id="A0F4CA40-0DDB-50D1-C0FA-D761DF3A6BB1">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-14 16:53:20 UTC</createdTime>
+<createdTime>2019-10-15 20:00:28 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
@@ -42,16 +42,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DC1A8321-6356-3284-C1B6-AF2C6725EDFE" name="Vendor PK">
+<identifier id="00127292-FD59-AACE-89A5-D4E3C73F3230" name="Customer PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-14 16:53:14 UTC</createdTime>
+<createdTime>2019-10-15 20:00:18 UTC</createdTime>
 <ownerDesignName>Q2</ownerDesignName>
 <engineerTo>
 <item key="FFCFC888-4F30-7CA1-F961-A0FCF35BDC61" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ADD5D72E-F787-ABE0-F479-91AB5B10906F</attributeRef>
+<attributeRef>A9207DCC-F02A-31BE-0181-F56B6169FCBC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

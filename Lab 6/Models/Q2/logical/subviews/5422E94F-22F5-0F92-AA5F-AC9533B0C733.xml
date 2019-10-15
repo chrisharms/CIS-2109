@@ -34,13 +34,13 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="526" y="48" width="130" height="110"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B00FDC93-4202-D32D-09D7-AE91EBC25E86" otype="Entity" vid="71F58F63-CFAA-414A-02C9-6306070ECD2B">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="735" y="371" width="205" height="134"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E6425FD1-4E0F-E19B-C3C1-0F56119307EE" otype="Entity" vid="0CC61B7F-89CF-F379-433A-764EE2E3FE93">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="46" y="352" width="185" height="165"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FDA9E136-33FE-8B05-5130-061ED9C2F7AD" otype="Entity" vid="8BB29419-DC5D-9613-393B-00B6B43B2F12">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="728" y="396" width="170" height="110"/>
 </OView>
 </objectViews>
 <connectors>
@@ -89,19 +89,13 @@
 <point x="582" y="600"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B6567697-4013-86D2-EE6B-28006D9D34AA" otype="Relation" vid_source="71F58F63-CFAA-414A-02C9-6306070ECD2B" vid_target="FD9E5024-59C2-D7C4-503B-C4BD035BCD3A">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B1646B06-251F-B691-FAA8-80A8366C6103" otype="Relation" vid_source="8BB29419-DC5D-9613-393B-00B6B43B2F12" vid_target="FD9E5024-59C2-D7C4-503B-C4BD035BCD3A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="650" y="562" width="64" height="24"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</targetLabel>
 <points>
-<point x="748" y="505"/>
-<point x="748" y="600"/>
+<point x="760" y="506"/>
+<point x="760" y="600"/>
 </points>
 </Connector>
 </connectors>
