@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC163A6D-1308-D31A-629D-79B50FF99BEB" name="Source">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D67160E-8329-8666-6CC2-557800DB00D9" name="News_Items">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:40:11 UTC</createdTime>
+<createdTime>2019-10-16 17:29:49 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Source_ID" id="F851CA6C-A641-497D-1B5F-4394449DADC2">
+<Attribute name="News_Item_ID" id="0C0B505A-892C-030E-1446-90130FB84AF4">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:40:17 UTC</createdTime>
+<createdTime>2019-10-16 17:30:12 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
@@ -27,57 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Source_Name" id="3A840ADE-E452-D2BA-51C2-BC9540ECC123">
+<Attribute name="Source_ID" id="DB7C6D74-1EBD-65F2-0E28-3302D5A9A0B6">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:40:29 UTC</createdTime>
+<createdTime>2019-10-16 17:38:33 UTC</createdTime>
+<generatorID>783DB2AC-6914-1A92-6B7C-DEE6C8BEBE2B</generatorID>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Source_Description" id="1C5D1F60-EE59-B4E0-8858-31915C6F96BB">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:40:44 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Source_Quality_Index" id="2889DC74-274E-4371-B51E-0C4F79832ED2">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:41:00 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F851CA6C-A641-497D-1B5F-4394449DADC2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="News_Content" id="2B65B972-AA02-01C6-9E47-EFE141B51747">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:39:52 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0F054F12-ECC2-AD12-82C6-7CEF42CBE6AD" name="Source PK">
+<identifier id="B22871E9-C21C-FC41-4B33-2D5D18479522" name="News_Items PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:40:28 UTC</createdTime>
+<createdTime>2019-10-16 17:32:35 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F851CA6C-A641-497D-1B5F-4394449DADC2</attributeRef>
+<attributeRef>DB7C6D74-1EBD-65F2-0E28-3302D5A9A0B6</attributeRef>
+<attributeRef>0C0B505A-892C-030E-1446-90130FB84AF4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

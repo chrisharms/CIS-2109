@@ -40,20 +40,6 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Artist_ID" id="7B1F5B23-ACA6-5BFF-6FD0-3A168D8DEBA6">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:44:57 UTC</createdTime>
-<generatorID>2FE567FE-9939-B6FB-F35A-10CF4895D14D</generatorID>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
-</engineerTo>
-<referedAttribute>4F5C7F4E-21DB-DD7D-873B-07D8CB6263C2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Source_ID" id="95D33DFE-C466-2966-7521-78216E9360ED">
 <createdBy>charm</createdBy>
 <createdTime>2019-10-16 01:45:05 UTC</createdTime>
@@ -68,6 +54,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Rec_Summary" id="1355AB43-F4D6-2C6D-4296-529B42B68244">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:21:37 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rec_Quality_Evaluation" id="EA63B88B-76E5-B22C-63F1-28AF2B0E1471">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:21:45 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rec_Date" id="6D2837DD-6AC5-DFB4-4DC3-C9BFD7C83643">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:22:27 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1A519969-17C4-5655-ABE3-6622AB0D9CF4" name="Recommendation PK">
@@ -80,7 +105,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E21E9B36-7045-F049-ACBD-3E3F6FC9DF14</attributeRef>
-<attributeRef>7B1F5B23-ACA6-5BFF-6FD0-3A168D8DEBA6</attributeRef>
 <attributeRef>95D33DFE-C466-2966-7521-78216E9360ED</attributeRef>
 </usedAttributes>
 </identifier>

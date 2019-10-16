@@ -66,6 +66,45 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Artist_Type" id="90951DA7-D5B1-A1B4-E473-A4C1EEEA2589">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:19:43 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rec_ID" id="3FA2953A-8AE5-A25D-DC8F-F3AE541FAFAC">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:27:23 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="News_Item_ID" id="6F59DD1D-3E20-B5A5-F383-B7B65A136064">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 17:38:55 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="788CEE25-2C13-77B5-7DC3-6E00A826E445" name="Artist PK">

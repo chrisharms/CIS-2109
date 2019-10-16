@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="2FE567FE-9939-B6FB-F35A-10CF4895D14D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="BA9BDAE4-547F-12D9-FED8-6E89A4C2334F">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-16 01:44:57 UTC</createdTime>
+<createdTime>2019-10-16 17:32:35 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
 </engineerTo>
 <sourcePk>788CEE25-2C13-77B5-7DC3-6E00A826E445</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>4080793D-07F4-29B6-2C48-B259F5BEB182</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>45B18CDD-259B-9915-FE02-24E2923A7F8F</targetEntity>
+<targetEntity>7D67160E-8329-8666-6CC2-557800DB00D9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
