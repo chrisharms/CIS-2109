@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C96D74BF-AC68-8632-EFB8-EA876F52958E" name="Contract">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 01:14:49 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Contract_ID" id="F85533A6-1CE7-BC34-3AD4-FE5ADA75DAA2">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 01:15:35 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artist_ID" id="40523060-2ED9-7B44-6C19-ECF9493F87C0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 01:20:43 UTC</createdTime>
+<generatorID>BF070AFC-953F-0593-E6B3-DF5D07847665</generatorID>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<referedAttribute>4F5C7F4E-21DB-DD7D-873B-07D8CB6263C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sample_ID" id="87275F6F-4C3F-3350-7569-9DF5BDCB88AE">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 01:21:05 UTC</createdTime>
+<generatorID>7A30AC3D-7661-06A6-D163-94B2CF557C90</generatorID>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<referedAttribute>81F3167D-FFE6-B4C8-59B3-203F31BBEB47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAFD79F1-B1B0-175D-AFA2-38DEB2B39B0A" name="Contract PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-16 01:15:45 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="46BD56F4-15E7-61BD-0DCD-95DCE464CADE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F85533A6-1CE7-BC34-3AD4-FE5ADA75DAA2</attributeRef>
+<attributeRef>40523060-2ED9-7B44-6C19-ECF9493F87C0</attributeRef>
+<attributeRef>87275F6F-4C3F-3350-7569-9DF5BDCB88AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
