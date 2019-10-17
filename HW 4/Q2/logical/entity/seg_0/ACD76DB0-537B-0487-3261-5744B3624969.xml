@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACD76DB0-537B-0487-3261-5744B3624969" name="Driver">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:15 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DriverID" id="79A60815-41BA-EDF3-CA09-AA73AFE959B4">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:22 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriverFName" id="3ED9A89D-2AB7-117D-B30B-82F2436E8548">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:30 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriverLName" id="4316F80B-3F1C-5852-30E5-D7647D151D52">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:45 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriverHireD" id="4232450E-D406-3030-C06F-E7F7DF92C6DD">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:53 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriverDOB" id="F401502C-442E-1817-FE39-6B610A192316">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:04:10 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6848E63-ACDC-CC85-2098-D0AFA51E3093" name="Driver PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:03:29 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79A60815-41BA-EDF3-CA09-AA73AFE959B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

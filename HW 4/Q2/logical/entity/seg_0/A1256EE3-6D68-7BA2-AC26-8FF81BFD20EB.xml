@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1256EE3-6D68-7BA2-AC26-8FF81BFD20EB" name="Schedule">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:00:50 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DriverID" id="ECD7F9AD-6E8B-642A-6A64-1F51807FCDE4">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:05:45 UTC</createdTime>
+<generatorID>52DA577E-C7EA-80D0-54E2-36DF4700CBB3</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<referedAttribute>79A60815-41BA-EDF3-CA09-AA73AFE959B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RouteID" id="C01071B9-3575-27CB-BEE7-0DFE7962EFFB">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:05:20 UTC</createdTime>
+<generatorID>620B8278-2C9F-15D6-3581-502F9BE74363</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<referedAttribute>580E3C72-B91F-BD68-8615-00BA4B96F0BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ScheduleDate" id="1BCA1B9B-BF7C-73F2-9CBE-DD708A80C4DB">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:01:09 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ScheduleDep" id="BEAAC7B1-1C28-41A6-3595-077329E35914">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:01:40 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ScheduleArr" id="BB138116-D8F0-E998-4533-7E6460A67956">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:02:04 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DrivingTime" id="C2FE5B04-E23C-D236-BF4E-30E24BCD82EA">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:02:17 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="379D01E1-0E39-F7B6-F306-07231A98AC64" name="Schedule PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:05:20 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C01071B9-3575-27CB-BEE7-0DFE7962EFFB</attributeRef>
+<attributeRef>ECD7F9AD-6E8B-642A-6A64-1F51807FCDE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1649DDC6-5EE7-FBDA-FBC0-B8A8F8F15FC2" name="Certificate">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:06:32 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VehicleID" id="64AA0340-66A3-1A0B-871E-77B06B7E1180">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:20:05 UTC</createdTime>
+<generatorID>B79D32A7-167E-CD73-86E9-B45D438A29AC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<referedAttribute>0F07EA6A-A5A3-A684-70DE-203183BB88D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriverID" id="88F65C3D-2D55-A08E-0685-D1C897851C2B">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:20:18 UTC</createdTime>
+<generatorID>4B4F014F-A7BE-901B-F8E4-50C7707AD9D4</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<referedAttribute>79A60815-41BA-EDF3-CA09-AA73AFE959B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DCStartDate" id="C82E04AB-2B6C-84FC-4A7D-6AD92118EAF9">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:06:37 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DCEndDate" id="CA6B649C-1435-D72F-E859-EEB18055F448">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:07:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A8CD5B2-AF98-259A-773A-7064ECE7ED39" name="Certificate PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 20:20:05 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="2EFE1B95-8113-26B8-1392-9B13EA954408" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64AA0340-66A3-1A0B-871E-77B06B7E1180</attributeRef>
+<attributeRef>88F65C3D-2D55-A08E-0685-D1C897851C2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

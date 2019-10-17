@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Q2" id="6AB4CEC0-64FA-64EE-5F9A-059F715883D3" version="3.5">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-17 19:55:40 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6AB4CEC0-64FA-64EE-5F9A-059F715883D3</designId>
+</OSDM_Design>
