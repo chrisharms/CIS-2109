@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BBB3309-53D2-AB78-CAE7-7767A4167C9A" name="Royalty Check">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:42:41 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Check_Number" id="9B7A964D-1A04-0DA0-488D-3F00FE640F87">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:44:41 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_Date" id="613A3CAF-417C-5D50-95FA-520E1E5E5909">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:45:24 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_Amount" id="919A3160-C408-D692-AD2C-09661AC8640C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:45:39 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="D00885BD-2895-4A83-A12D-4BDCF1383A31">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:48:32 UTC</createdTime>
+<generatorID>E48BBDA5-9351-C408-385C-D31A484BD3AC</generatorID>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<referedAttribute>0FDEA61B-DC02-3B52-E981-BD83A71FEEA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_ID" id="B8CD3103-2AFA-912E-EC0D-8ACD0A3D4586">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:48:43 UTC</createdTime>
+<generatorID>F19CA318-C08E-8133-9B14-F9CC3C908741</generatorID>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<referedAttribute>82E37D65-2799-219A-AA7E-A243634F5A85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C40FE268-47DE-1AB5-CDA7-0B24089E9C75" name="Royalty Check PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 17:45:18 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B7A964D-1A04-0DA0-488D-3F00FE640F87</attributeRef>
+<attributeRef>D00885BD-2895-4A83-A12D-4BDCF1383A31</attributeRef>
+<attributeRef>B8CD3103-2AFA-912E-EC0D-8ACD0A3D4586</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

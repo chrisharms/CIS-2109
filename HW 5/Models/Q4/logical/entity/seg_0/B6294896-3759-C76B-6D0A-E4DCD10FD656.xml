@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6294896-3759-C76B-6D0A-E4DCD10FD656" name="Author">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:48:46 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Author_ID" id="82E37D65-2799-219A-AA7E-A243634F5A85">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:48:51 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_First_Name" id="4A63D1FB-327E-9A53-9F34-478B9695DE4F">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:49:18 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_Last_Name" id="DFEA33FF-8927-0BD3-5D39-E5CB9C1E7221">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:49:39 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_Address" id="7BA80321-14AD-D465-D205-0C4A41C7781F">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:50:04 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Author_DOB" id="3FC3FAA2-3C5D-614A-BD77-FFD9F35D9342">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:50:43 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00FC4D06-F368-C9D9-6954-0BC5823B297D" name="Author PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:49:13 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82E37D65-2799-219A-AA7E-A243634F5A85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

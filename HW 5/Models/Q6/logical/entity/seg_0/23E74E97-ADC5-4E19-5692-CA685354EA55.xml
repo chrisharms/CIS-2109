@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23E74E97-ADC5-4E19-5692-CA685354EA55" name="Offering">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:19:23 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>45E36BE9-9D25-40C8-7651-724B5C6F86F4</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Offering_ID" id="20755B28-F138-3F51-36FD-BF7A6B224810">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:20:09 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offering_Description" id="F0E54073-EB60-2479-FC30-1B76923B0EBD">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:20:29 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offering_Type" id="45E36BE9-9D25-40C8-7651-724B5C6F86F4">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:20:53 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B94C83E-84E1-1B43-AE05-E43E3403259C" name="Offering PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:20:23 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20755B28-F138-3F51-36FD-BF7A6B224810</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

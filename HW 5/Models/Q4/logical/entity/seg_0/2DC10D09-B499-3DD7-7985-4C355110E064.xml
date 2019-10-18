@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DC10D09-B499-3DD7-7985-4C355110E064" name="Publisher">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:38:19 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Publisher_Name" id="2092E424-42EE-52D1-F1BD-EC97137CB52C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:38:55 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Publisher_Phone" id="FD3E7BCB-4997-252F-6E3B-D1EB648E5EFC">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:40:39 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact_Person_FName" id="D4347D7F-6CC3-3A92-5CA3-1EFBD36374CF">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:43:34 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact_Person_LName" id="83695C4E-8170-B508-3EB3-7822743E152D">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:43:59 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42B684D6-2CFF-C9AF-233A-CB4D3E62C9B2" name="Publisher PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:40:37 UTC</createdTime>
+<ownerDesignName>Q4</ownerDesignName>
+<engineerTo>
+<item key="BB6763C1-3799-7F4F-1DA1-55233A84D66C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2092E424-42EE-52D1-F1BD-EC97137CB52C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

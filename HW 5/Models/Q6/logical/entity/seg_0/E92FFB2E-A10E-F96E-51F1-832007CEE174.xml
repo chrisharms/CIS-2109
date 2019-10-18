@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E92FFB2E-A10E-F96E-51F1-832007CEE174" name="Product">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:40:45 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>23E74E97-ADC5-4E19-5692-CA685354EA55</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Product_Name" id="CED73107-61CC-E162-3BC5-359BD82059E6">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:40:56 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product_Standard_Price" id="C5E933CF-DA3A-E6D4-E24C-BDB3FF285C44">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:41:12 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product_Release_Date" id="0494342F-9D98-6B66-4DC7-864610F6993D">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 18:42:09 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94252454-6C86-E0FF-6EE1-535FE9FB8B3A" name="Artwork">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:10 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Item_ID" id="F71514C0-E35C-A7BE-C6F3-F40AE7E81B77">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:19 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Title" id="8CB7BF15-B20A-57B3-5BEC-FFC46EDD2B2E">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:34 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Type" id="5ED373CD-240C-C346-0C32-B141B992F629">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:45 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Size" id="E5FEFB49-FA81-622F-9D3C-C2461ED598B1">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:54 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Height" id="8AD0CB22-3B87-47D2-BE5B-3C5675AD93BA">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:14:01 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Width" id="8696ACB5-6AC8-3D4D-9480-B51A57FEF088">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:14:12 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Height_1" id="679C6F2D-C051-537E-8210-3CB2C4C26315">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:14:27 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="576AEFEB-3C71-2DE7-BAD0-7A14127F3CE8" name="Artwork PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:32 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F71514C0-E35C-A7BE-C6F3-F40AE7E81B77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
