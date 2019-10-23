@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10A3E8B3-2447-DB79-CF61-FE305885621A" name="Personv1">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 18:34:21 UTC</createdTime>
+<ownerDesignName>Q7</ownerDesignName>
+<engineerTo>
+<item key="4AFDD2F5-AC3A-BF4C-E576-7313AE3987D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>0D6E0C2A-4F5A-6B57-0140-E6AEFCA897F0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EntityNumber" id="62DB6E1E-EF4A-D7E9-0635-074879CB2778">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 18:40:37 UTC</createdTime>
+<ownerDesignName>Q7</ownerDesignName>
+<engineerTo>
+<item key="4AFDD2F5-AC3A-BF4C-E576-7313AE3987D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B68F492A-97D1-BF0C-7429-FEC72A1121EA">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 18:40:46 UTC</createdTime>
+<ownerDesignName>Q7</ownerDesignName>
+<engineerTo>
+<item key="4AFDD2F5-AC3A-BF4C-E576-7313AE3987D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NetWorth" id="CD743175-5FBD-235B-E246-51430E04D302">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 18:40:51 UTC</createdTime>
+<ownerDesignName>Q7</ownerDesignName>
+<engineerTo>
+<item key="4AFDD2F5-AC3A-BF4C-E576-7313AE3987D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA85D088-F4FE-276E-A568-D75E9C5AC1C9" name="Personv1 PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 18:40:41 UTC</createdTime>
+<ownerDesignName>Q7</ownerDesignName>
+<engineerTo>
+<item key="4AFDD2F5-AC3A-BF4C-E576-7313AE3987D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62DB6E1E-EF4A-D7E9-0635-074879CB2778</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
