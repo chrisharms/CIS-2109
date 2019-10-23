@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E1EE218-5DF2-1C23-C0C8-F05AE1D05B85" name="Conductor">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:59:43 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ConductorID" id="0924F2A6-8AFB-7E8C-D375-C79844EA3940">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:59:50 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ConductorName" id="747AECB6-85D1-17D5-2930-D197392E5626">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:00:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8696268B-EDD9-6D57-B483-F7EAA5F5A743" name="Conductor PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:00:18 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0924F2A6-8AFB-7E8C-D375-C79844EA3940</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

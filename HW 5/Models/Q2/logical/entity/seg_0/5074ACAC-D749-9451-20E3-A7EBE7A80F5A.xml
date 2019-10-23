@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5074ACAC-D749-9451-20E3-A7EBE7A80F5A" name="Concert">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:54:22 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ConcertNumber" id="098A1F68-04E7-9737-8B62-D288AFDA9E74">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:54:31 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ConcertDate" id="2414C787-A7CD-F583-05EE-B3A98C6DAD16">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:54:47 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ConductorID" id="9D22F943-2AB2-2835-5550-7F1737DACF7C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:01:07 UTC</createdTime>
+<generatorID>C1362651-18A6-846E-E773-E9004ED51436</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<referedAttribute>0924F2A6-8AFB-7E8C-D375-C79844EA3940</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EEE0318-5986-E8D1-7B2F-0F4249A6FEAB" name="Concert PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:55:06 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>098A1F68-04E7-9737-8B62-D288AFDA9E74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

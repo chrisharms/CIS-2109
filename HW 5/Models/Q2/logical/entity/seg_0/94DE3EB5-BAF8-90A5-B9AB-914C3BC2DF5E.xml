@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94DE3EB5-BAF8-90A5-B9AB-914C3BC2DF5E" name="Concert Season">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:53:26 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OpeningDate" id="00DCFC6C-6390-E67F-6E64-B49BE5B0B0C0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:53:37 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opening Month" id="ED76716E-16BE-096F-AA7F-AD10F944CD87">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:53:50 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ConcertNumber" id="9F8A80A5-0624-EBC4-4616-F13EAE8F35A5">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:56:16 UTC</createdTime>
+<generatorID>ABD613FC-E143-8E13-A56E-303C88E57B19</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<referedAttribute>098A1F68-04E7-9737-8B62-D288AFDA9E74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8500857C-7CC2-2E52-D9E7-AFBE8979D791" name="Concert Season PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 00:53:49 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AE0C1FBB-173C-BA55-CADB-C9B0233E7A1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00DCFC6C-6390-E67F-6E64-B49BE5B0B0C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

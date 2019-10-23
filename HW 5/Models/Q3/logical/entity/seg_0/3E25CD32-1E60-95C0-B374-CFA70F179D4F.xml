@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E25CD32-1E60-95C0-B374-CFA70F179D4F" name="Traveling Show">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:14:48 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>94252454-6C86-E0FF-6EE1-535FE9FB8B3A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Show_ID" id="19291134-FFC7-4277-6A29-7C8BCBDD1547">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:14:59 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_Date" id="7E0F1D68-098C-D3CF-27BE-D4DB0D65CB46">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:17:58 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Date" id="45840891-E061-B85A-C7E3-BB2DCD18EF39">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:18:06 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E84CEB5A-6839-71A1-799A-B1EC3D7AE3EC" name="Traveling Show PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 01:17:12 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19291134-FFC7-4277-6A29-7C8BCBDD1547</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

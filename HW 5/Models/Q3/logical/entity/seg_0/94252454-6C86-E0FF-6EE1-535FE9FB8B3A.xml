@@ -14,6 +14,10 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>5ED373CD-240C-C346-0C32-B141B992F629</discriminatorAttributeID>
+<discriminatorColumnName>Item_Type</discriminatorColumnName>
+<completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Item_ID" id="F71514C0-E35C-A7BE-C6F3-F40AE7E81B77">
 <createdBy>charm</createdBy>
@@ -30,19 +34,6 @@
 <Attribute name="Item_Title" id="8CB7BF15-B20A-57B3-5BEC-FFC46EDD2B2E">
 <createdBy>charm</createdBy>
 <createdTime>2019-10-18 16:11:34 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Item_Type" id="5ED373CD-240C-C346-0C32-B141B992F629">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:45 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -104,6 +95,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Type" id="5ED373CD-240C-C346-0C32-B141B992F629">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-18 16:11:45 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
