@@ -41,5 +41,48 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Offering_ID" id="4FA12205-A5AD-79D4-F54A-A59F6105F69E">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:47:56 UTC</createdTime>
+<generatorID>AE22771E-3E0F-1A32-91CF-98BC4ED9F56B</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<referedAttribute>20755B28-F138-3F51-36FD-BF7A6B224810</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_ID" id="7F16D316-DA7A-2BA0-9744-B7A76B6C23BF">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:48:19 UTC</createdTime>
+<generatorID>958160C3-B1EE-0594-35F8-38A2CF89BABF</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<referedAttribute>578770DA-F98C-11FE-89BE-CB9858417A09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38A2E2A0-4E7B-84C6-8075-C981964D5897" name="Maintenance_Schedule PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:47:56 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FA12205-A5AD-79D4-F54A-A59F6105F69E</attributeRef>
+<attributeRef>7F16D316-DA7A-2BA0-9744-B7A76B6C23BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94252454-6C86-E0FF-6EE1-535FE9FB8B3A" name="Artwork">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14CA818C-26BA-77D7-75AA-6F17BF716B06" name="Schedule">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:10 UTC</createdTime>
+<createdTime>2019-10-23 19:19:20 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -14,112 +14,82 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<generateDiscrimColumn>true</generateDiscrimColumn>
-<discriminatorAttributeID>5ED373CD-240C-C346-0C32-B141B992F629</discriminatorAttributeID>
-<discriminatorColumnName>Item_Type</discriminatorColumnName>
-<completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Item_ID" id="F71514C0-E35C-A7BE-C6F3-F40AE7E81B77">
+<Attribute name="City_Visited" id="46B45BC0-66C6-B69F-D1D9-C6D730B47716">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:19 UTC</createdTime>
+<createdTime>2019-10-23 19:19:26 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartDate" id="9CAFFE6C-EAC0-3611-16F8-EF6E64731D5A">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 19:19:55 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndDate" id="C09A9EF3-4229-D024-96B2-DB8E69665882">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 19:20:02 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactPhone" id="E297AF90-4AFC-9737-F463-52AA0F5A602C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 19:20:25 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Item_Title" id="8CB7BF15-B20A-57B3-5BEC-FFC46EDD2B2E">
+<Attribute name="Item_ID" id="C84BF6F7-97D3-D6AD-2271-58CECC3C6E8C">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:34 UTC</createdTime>
+<createdTime>2019-10-23 19:21:36 UTC</createdTime>
+<generatorID>0FDA14A5-AACC-6842-1CE6-80824ECE268E</generatorID>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F71514C0-E35C-A7BE-C6F3-F40AE7E81B77</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Item_Size" id="E5FEFB49-FA81-622F-9D3C-C2461ED598B1">
+<Attribute name="ShowID" id="4C1B8C06-56AB-A965-C456-E43E901CA135">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:54 UTC</createdTime>
+<createdTime>2019-10-23 19:21:50 UTC</createdTime>
+<generatorID>825973F6-0929-A9C6-FF2B-4C823AED6CEE</generatorID>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Item_Height" id="8AD0CB22-3B87-47D2-BE5B-3C5675AD93BA">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:14:01 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Item_Width" id="8696ACB5-6AC8-3D4D-9480-B51A57FEF088">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:14:12 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Item_Height_1" id="679C6F2D-C051-537E-8210-3CB2C4C26315">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:14:27 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Item_Type" id="5ED373CD-240C-C346-0C32-B141B992F629">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:45 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Artist_ID" id="C1573668-AA88-0593-6453-B1F9507ED689">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-23 19:06:39 UTC</createdTime>
-<generatorID>D05148EA-DF65-71ED-2690-AADCACADCB7B</generatorID>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>5FEC0A3B-165F-D372-4259-9EB1C8C89E61</referedAttribute>
+<referedAttribute>ABB04043-4912-9A72-22C7-627DD2767A21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -127,16 +97,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="576AEFEB-3C71-2DE7-BAD0-7A14127F3CE8" name="Artwork PK">
+<identifier id="22CF4421-0003-2C07-56DF-AD9A440DA11A" name="Schedule PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:11:32 UTC</createdTime>
+<createdTime>2019-10-23 19:21:36 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F71514C0-E35C-A7BE-C6F3-F40AE7E81B77</attributeRef>
+<attributeRef>C84BF6F7-97D3-D6AD-2271-58CECC3C6E8C</attributeRef>
+<attributeRef>4C1B8C06-56AB-A965-C456-E43E901CA135</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

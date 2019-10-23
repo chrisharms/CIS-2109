@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A13D2EC-CB99-9CEA-B635-792F9B686709" name="Bill">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:53:28 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BillAmount" id="397FD3A5-1421-1DDA-03F5-2D809CE8DF28">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:54:48 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ServiceDate" id="0724C77A-3210-10D1-F56A-854E0C618541">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:55:14 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BillDueDate" id="0C8034DA-FB90-96FF-A5C0-BE270C42D8EE">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:55:40 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offering_ID" id="127DB9A7-6DCD-DC79-3EAC-3CF199B69A76">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:56:38 UTC</createdTime>
+<generatorID>7845D8F5-DD2B-2135-FC93-B3EDE690ACDA</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<referedAttribute>20755B28-F138-3F51-36FD-BF7A6B224810</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_ID" id="10A66E7C-CEDF-156B-940E-8A416A221172">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:56:47 UTC</createdTime>
+<generatorID>DF0B95FD-ADBE-E5F0-AAEF-B399F0CBDEC0</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<referedAttribute>578770DA-F98C-11FE-89BE-CB9858417A09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_ID1" id="8FB5D9E5-6A48-940E-EF83-5D8661FA9DA6">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:58:12 UTC</createdTime>
+<generatorID>596443FB-F6D9-E666-7F49-A247B1D6066D</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>38589BD4-5BEA-93EF-89D4-9C22256535C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offering_ID1" id="3D58BDB7-0909-33DB-4B5F-20425F38F841">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:58:12 UTC</createdTime>
+<generatorID>596443FB-F6D9-E666-7F49-A247B1D6066D</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7FE64F14-096A-2457-675F-D9D73D14B70B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26407FFA-393D-D282-21AC-1FC1C5CA0F4C" name="Bill PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:56:38 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>127DB9A7-6DCD-DC79-3EAC-3CF199B69A76</attributeRef>
+<attributeRef>10A66E7C-CEDF-156B-940E-8A416A221172</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

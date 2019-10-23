@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23E74E97-ADC5-4E19-5692-CA685354EA55" name="Offering">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69822B0F-FAC2-F159-0807-4599607E122A" name="Purchase">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:19:23 UTC</createdTime>
+<createdTime>2019-10-23 17:50:06 UTC</createdTime>
 <ownerDesignName>Q6</ownerDesignName>
 <engineerTo>
 <item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
@@ -14,59 +14,74 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<generateDiscrimColumn>true</generateDiscrimColumn>
-<discriminatorAttributeID>45E36BE9-9D25-40C8-7651-724B5C6F86F4</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Offering_ID" id="20755B28-F138-3F51-36FD-BF7A6B224810">
+<Attribute name="PurchaseDate" id="F6C823E0-82DC-3041-B534-186511FAC4B4">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:09 UTC</createdTime>
+<createdTime>2019-10-23 17:50:20 UTC</createdTime>
 <ownerDesignName>Q6</ownerDesignName>
 <engineerTo>
 <item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactPerson" id="21E07948-62CB-B309-984B-159B391EC491">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:50:29 UTC</createdTime>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_ID" id="38589BD4-5BEA-93EF-89D4-9C22256535C0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 17:51:39 UTC</createdTime>
+<generatorID>8D786F60-C8A4-01A4-4634-CD38A78C80FF</generatorID>
+<ownerDesignName>Q6</ownerDesignName>
+<engineerTo>
+<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+</engineerTo>
+<referedAttribute>578770DA-F98C-11FE-89BE-CB9858417A09</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Offering_Description" id="F0E54073-EB60-2479-FC30-1B76923B0EBD">
+<Attribute name="Offering_ID" id="7FE64F14-096A-2457-675F-D9D73D14B70B">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:29 UTC</createdTime>
+<createdTime>2019-10-23 17:51:46 UTC</createdTime>
+<generatorID>67E88444-3D5A-918F-71CE-8D554D32688B</generatorID>
 <ownerDesignName>Q6</ownerDesignName>
 <engineerTo>
 <item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>20755B28-F138-3F51-36FD-BF7A6B224810</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Offering_Type" id="45E36BE9-9D25-40C8-7651-724B5C6F86F4">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:53 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
-<engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3B94C83E-84E1-1B43-AE05-E43E3403259C" name="Offering PK">
+<identifier id="57023A5A-7179-A271-9C5A-9AAF43710C79" name="Purchase PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:23 UTC</createdTime>
+<createdTime>2019-10-23 17:51:39 UTC</createdTime>
 <ownerDesignName>Q6</ownerDesignName>
 <engineerTo>
 <item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>20755B28-F138-3F51-36FD-BF7A6B224810</attributeRef>
+<attributeRef>38589BD4-5BEA-93EF-89D4-9C22256535C0</attributeRef>
+<attributeRef>7FE64F14-096A-2457-675F-D9D73D14B70B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23E74E97-ADC5-4E19-5692-CA685354EA55" name="Offering">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2261EAD9-F7B2-9DFA-D1DA-422CF3AA1C18" name="Gallery">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:19:23 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
+<createdTime>2019-10-23 19:22:37 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,27 +14,25 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<generateDiscrimColumn>true</generateDiscrimColumn>
-<discriminatorAttributeID>45E36BE9-9D25-40C8-7651-724B5C6F86F4</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Offering_ID" id="20755B28-F138-3F51-36FD-BF7A6B224810">
+<Attribute name="GalleryID" id="A15E4E82-8DD6-0D03-5842-94D623057FC6">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:09 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
+<createdTime>2019-10-23 19:22:42 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Offering_Description" id="F0E54073-EB60-2479-FC30-1B76923B0EBD">
+<Attribute name="GalleryName" id="1697F027-AB62-950E-8BF7-9938CD58988B">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:29 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
+<createdTime>2019-10-23 19:22:49 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,12 +40,12 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Offering_Type" id="45E36BE9-9D25-40C8-7651-724B5C6F86F4">
+<Attribute name="GalleryCity" id="AF58C216-F1FB-11EF-4426-915DA6C9DFEF">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:53 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
+<createdTime>2019-10-23 19:22:58 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,16 +55,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3B94C83E-84E1-1B43-AE05-E43E3403259C" name="Offering PK">
+<identifier id="A3B11392-7CEF-9D6E-5378-DA5058F97061" name="Gallery PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 18:20:23 UTC</createdTime>
-<ownerDesignName>Q6</ownerDesignName>
+<createdTime>2019-10-23 19:24:34 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
-<item key="5558B5BE-EE32-65BE-50B2-E123B7835CC8" value="true"/>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>20755B28-F138-3F51-36FD-BF7A6B224810</attributeRef>
+<attributeRef>A15E4E82-8DD6-0D03-5842-94D623057FC6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

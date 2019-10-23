@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13AEF539-76E1-79E2-BE47-2D4FFE1BF80E" name="Artist">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B507CDDF-41F8-F37C-A7CC-E5E665E3E3DD" name="Show">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:19:02 UTC</createdTime>
+<createdTime>2019-10-23 19:17:52 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Artist_ID" id="5FEC0A3B-165F-D372-4259-9EB1C8C89E61">
+<Attribute name="ShowID" id="ABB04043-4912-9A72-22C7-627DD2767A21">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:19:08 UTC</createdTime>
+<createdTime>2019-10-23 19:17:56 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -27,45 +27,22 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Artist_First_Name" id="B070F489-A5AF-3ACD-168E-FC8E87AAC87C">
+<Attribute name="StartDate" id="B4E3A7D6-73F6-5587-6C96-10E564F0BE03">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:19:37 UTC</createdTime>
+<createdTime>2019-10-23 19:18:25 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Artist_Last_Name" id="11FCE501-4278-69FE-5282-3D9A98AF9645">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:20:00 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Artist_DOB" id="0B2FE872-CAE5-5E39-4B10-91ACDEF8EC33">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:20:08 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Artist_DOD" id="867618F9-43C1-0600-9345-9F143364AD65">
+<Attribute name="EndDate" id="82CACAC9-09D6-67C3-6D89-0B18B4ACD96E">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:22:04 UTC</createdTime>
+<createdTime>2019-10-23 19:18:40 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -78,16 +55,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7CFDD788-9D80-B04E-4E3C-55E99C89CE1E" name="Artist PK">
+<identifier id="7505DEEA-7551-891B-8FC3-09393A6EE4C7" name="Show PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-18 16:19:35 UTC</createdTime>
+<createdTime>2019-10-23 19:18:21 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5FEC0A3B-165F-D372-4259-9EB1C8C89E61</attributeRef>
+<attributeRef>ABB04043-4912-9A72-22C7-627DD2767A21</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

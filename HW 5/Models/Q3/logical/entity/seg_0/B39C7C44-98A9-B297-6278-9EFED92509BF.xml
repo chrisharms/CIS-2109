@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E25CD32-1E60-95C0-B374-CFA70F179D4F" name="Traveling Show">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B39C7C44-98A9-B297-6278-9EFED92509BF" name="Loan">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-23 01:14:48 UTC</createdTime>
+<createdTime>2019-10-23 19:23:37 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
@@ -11,61 +11,77 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>94252454-6C86-E0FF-6EE1-535FE9FB8B3A</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Show_ID" id="19291134-FFC7-4277-6A29-7C8BCBDD1547">
+<Attribute name="LoanedDate" id="353D8F53-70CB-2C59-7748-D483C76A9E76">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-23 01:14:59 UTC</createdTime>
+<createdTime>2019-10-23 19:23:41 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ReturnedDate" id="153D910C-DDAC-0281-3310-467249B3BB4A">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 19:24:01 UTC</createdTime>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_ID" id="80E3F212-CD98-DD54-2BC7-4443C5270D9C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-23 19:24:24 UTC</createdTime>
+<generatorID>EF0A4051-89DA-400A-0B8C-19ECF621A7A3</generatorID>
+<ownerDesignName>Q3</ownerDesignName>
+<engineerTo>
+<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
+</engineerTo>
+<referedAttribute>F71514C0-E35C-A7BE-C6F3-F40AE7E81B77</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Start_Date" id="7E0F1D68-098C-D3CF-27BE-D4DB0D65CB46">
+<Attribute name="GalleryID" id="A2DBCDDC-C226-54C2-6249-27861E617342">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-23 01:17:58 UTC</createdTime>
+<createdTime>2019-10-23 19:24:35 UTC</createdTime>
+<generatorID>48163158-289C-EAEB-D1FE-A4796FEDE6F2</generatorID>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A15E4E82-8DD6-0D03-5842-94D623057FC6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="End_Date" id="45840891-E061-B85A-C7E3-BB2DCD18EF39">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-23 01:18:06 UTC</createdTime>
-<ownerDesignName>Q3</ownerDesignName>
-<engineerTo>
-<item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E84CEB5A-6839-71A1-799A-B1EC3D7AE3EC" name="Traveling Show PK">
+<identifier id="42064A81-6E4A-54E4-332C-07825FB0B9AF" name="Loan PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-23 01:17:12 UTC</createdTime>
+<createdTime>2019-10-23 19:24:24 UTC</createdTime>
 <ownerDesignName>Q3</ownerDesignName>
 <engineerTo>
 <item key="425F4B35-96B9-5B38-249B-50B64DAE61EF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>19291134-FFC7-4277-6A29-7C8BCBDD1547</attributeRef>
+<attributeRef>80E3F212-CD98-DD54-2BC7-4443C5270D9C</attributeRef>
+<attributeRef>A2DBCDDC-C226-54C2-6249-27861E617342</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
