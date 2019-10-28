@@ -53,6 +53,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PatientID" id="AAA99945-4DDC-DC5D-9C30-8D9DE4C6F4A0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 16:25:47 UTC</createdTime>
+<generatorID>8B142AD1-5778-A851-17B4-7391948D838A</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>90B9D758-3ABA-A17B-D6C2-06E693B8247F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="54BF2067-B461-8A44-76C4-09DE1B509C72" name="Bed PK">

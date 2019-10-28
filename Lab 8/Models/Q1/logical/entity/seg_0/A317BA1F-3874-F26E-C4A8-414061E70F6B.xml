@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -54,5 +53,61 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PhysicianID" id="4FE26794-1A66-6267-52D8-94A7C0D11B81">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 17:20:03 UTC</createdTime>
+<generatorID>300C26D4-4F68-41ED-637F-FCB84FD75E35</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<referedAttribute>5E124DAA-CC46-5CF7-E485-77D5BA49B441</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TreatmentID" id="104A78F2-543A-66D3-3208-98A70497AE04">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 17:20:31 UTC</createdTime>
+<generatorID>E28BEC43-510C-6895-5110-3AFD0EF27572</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<referedAttribute>02F8BD92-F6E8-37FA-B84E-8B448B505743</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientID" id="C7C6DC72-CBD4-1414-F4F4-8A8C5B9E8C5B">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 17:59:22 UTC</createdTime>
+<generatorID>E1DFD124-A7FF-E41F-B51E-0CFB8A908C40</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<referedAttribute>90B9D758-3ABA-A17B-D6C2-06E693B8247F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D753EF4-128E-7287-B55E-9F7F1102D3E0" name="Order PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 17:20:03 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>125DFF62-637D-01DD-12D9-D0F8FBFD582A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

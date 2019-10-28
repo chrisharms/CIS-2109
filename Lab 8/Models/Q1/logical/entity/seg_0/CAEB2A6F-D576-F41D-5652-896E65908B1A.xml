@@ -40,6 +40,59 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DiagnosisDateTime" id="F3CB99F3-AAA9-6AFF-8BFD-06A3B49334E3">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 16:43:19 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DiagnosisCode" id="B194F711-A98A-54B7-23CC-2550CAE50636">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 16:43:29 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DiagnosisDescription" id="7381B079-5698-1852-712C-BE351A40EEB9">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 16:43:55 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhysicianID" id="D69F6321-4F52-526E-D95C-B941DB9F43B1">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-28 16:47:36 UTC</createdTime>
+<generatorID>7AB543B4-7AA8-77A6-2231-F306A371049F</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<referedAttribute>5E124DAA-CC46-5CF7-E485-77D5BA49B441</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2A41A260-6559-7E4B-438C-47A2EA2BD0A9" name="Diagnosis PK">
@@ -50,6 +103,9 @@
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>11F82080-8AE2-C660-65D3-1C2E1232C4D0</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
