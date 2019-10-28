@@ -52,3 +52,40 @@ from Employee_T e full join Employee_Store_T es
 on e.emp_id = es.emp_id
 full join Store_T s
 on es.store_name = s.store_name;
+
+
+update employee_t
+set emp_salary = emp_salary + 1000
+where emp_dept = 10;
+
+alter table store_t
+add Square_Footage number(6);
+
+update store_t
+set square_footage = 3000
+where store_name = 'Blue_Store';
+
+update store_t
+set square_footage = 2000
+where store_name = 'Pink_Store';
+
+alter table employee_t
+rename column emp_id to Emp_Number;
+
+alter table employee_store_t
+rename column emp_id to Emp_Number;
+
+delete from employee_store_t
+where store_name = 'Pink_Store';
+
+delete from store_t
+where store_name = 'Pink_Store';
+
+alter table employee_store_t
+drop column rating;
+
+alter table employee_t
+modify emp_salary null;
+
+insert into employee_t
+values('E-20',null,'John',30);
