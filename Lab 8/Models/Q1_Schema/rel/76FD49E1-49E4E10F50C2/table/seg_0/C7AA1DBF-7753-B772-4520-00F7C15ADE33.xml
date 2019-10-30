@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7AA1DBF-7753-B772-4520-00F7C15ADE33" name="Order">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>A317BA1F-3874-F26E-C4A8-414061E70F6B</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderID" id="05700689-5B63-C70E-072D-7CC720144289">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>125DFF62-637D-01DD-12D9-D0F8FBFD582A</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderDate" id="EEF394EC-01F0-E119-E4D3-589FD5C9FBC9">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>5EAC0D21-4B30-CB00-B262-0202D40CE407</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderTime" id="3094C8EA-4AF3-3E5D-C59F-2A4E2EC6F3F0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>9BD8FFC8-5C40-B025-576E-AA6E0DBB6C26</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Treatment_TreatmentID" id="3F422A8F-DC0C-3332-522B-938A89AE7EA5">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>104A78F2-543A-66D3-3208-98A70497AE04</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D4FF30B-C8C8-1655-AF5B-78376BB58965" referredColumn="E30AD336-3C97-DD66-856B-9BCFE8E40E16"/>
+</associations>
+</Column>
+<Column name="Physician_PersonID" id="656B8D2D-5484-8D17-CB21-D8B1354CD845">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>657585BE-FD52-1C02-E71F-45EAF94A8EC3</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="477F8129-9ED3-2648-055F-E5466A3B042B" referredColumn="4601E6E8-6C1B-42D3-949D-A05A2DD0BC8F"/>
+</associations>
+</Column>
+<Column name="Patient_PersonID" id="EB2358A5-F132-1BD0-C010-A29E9001D168">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>70CF5EAD-1DE6-D9C5-8EAC-B353640E0CB5</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CD7FBF1-B981-E1D8-0D7D-D7762FBE4A9F" referredColumn="D818B261-CF15-9740-C18B-90AE38CEFDEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47D4494F-2197-B154-C40E-A7354C3A5A91" name="Order_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>5D753EF4-128E-7287-B55E-9F7F1102D3E0</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05700689-5B63-C70E-072D-7CC720144289"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F945E49-6A6A-BD4F-1940-34051DB6ACB3" name="Order_Physician_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>01F8A28A-3A21-0E40-3752-96C2D4C5BFB7</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656B8D2D-5484-8D17-CB21-D8B1354CD845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43C10584-A72B-536A-1DE7-BCAB754C3D8E" name="Order_Patient_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>C2DFB255-CA96-F7F2-1FD5-086FF18D3F14</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB2358A5-F132-1BD0-C010-A29E9001D168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68231F3A-513E-2C62-4012-F454CCC25E2F" name="Order_Treatment_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>E28BEC43-510C-6895-5110-3AFD0EF27572</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F422A8F-DC0C-3332-522B-938A89AE7EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

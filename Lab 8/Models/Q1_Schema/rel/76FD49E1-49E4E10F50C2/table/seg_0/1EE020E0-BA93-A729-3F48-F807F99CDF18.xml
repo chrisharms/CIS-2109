@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EE020E0-BA93-A729-3F48-F807F99CDF18" name="Person">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>A439AC46-3E0F-1815-A06E-F4BBBAD28DE0</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonID" id="B7F016EC-4DF1-2F22-6580-7472608E1019">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>F9740338-C0F9-60A2-1359-86106FF32EE2</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonName" id="D3447B7F-8277-D678-5664-2DC6591A751C">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>42D82A87-B231-2FE7-BFE5-96A60E566779</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonAddress" id="C99D147C-91F5-0F17-3419-C6229BBF770A">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>F5EA7462-F9F5-68EB-A500-2CB0D595CB56</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonCity" id="3C904DF4-C471-EEC8-06E3-4EFEF4B6785A">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>A37ECF6D-6861-3815-B146-4BA4E0F8DBE4</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonState" id="68BEB3B2-F2E5-A373-779E-E7C4782C1090">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>574AE197-4502-5324-85EA-4CFD40BD89F5</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonZip" id="033DD112-3342-7CEE-CE9F-AF07E2931E65">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>205F06BC-8A2C-8666-89C0-11367FD366DC</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonDOB" id="883C00A8-62ED-8F63-9C9D-C0F671F119C0">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>9550E7F4-081B-6A9C-4005-65FE4694044E</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonPhone" id="913865E9-1D61-BE1E-C3AA-32C4057D86B3">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>197FC297-164C-C767-8F83-F75AEC99614E</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonEmail" id="0C602893-1C62-4192-699F-68395E30EF97">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>3194C80A-CBF6-C50B-4A9B-4DE2759031CD</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonType" id="987B5C89-1A18-3986-28F5-60B81B822B84">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>84CA38D3-6889-3CC7-BC0B-E5727320ACB3</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<constraintName>CH_INH_Person</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="Employee" description="entity Employee"/>
+<valueDef value="Patient" description="entity Patient"/>
+<valueDef value="Person" description="entity Person"/>
+<valueDef value="Physician" description="entity Physician"/>
+<valueDef value="Volunteer" description="entity Volunteer"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="101196D8-D2D0-1089-D840-0DF4B162C77A" name="Person_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>827925DF-E505-5CB6-F4F4-474CEFB710DB</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7F016EC-4DF1-2F22-6580-7472608E1019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

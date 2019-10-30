@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C5DFFEB-8AE1-0D15-FC18-F0D97988C6AF" name="Employee">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>3E611D2F-1686-941B-3095-31CBC102E7F1</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonID" id="F721514A-632D-6775-3681-D0D22C2B6F82">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>F9740338-C0F9-60A2-1359-86106FF32EE2</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EED12BCB-2CB6-86D8-45BC-DFDE21A37956" referredColumn="B7F016EC-4DF1-2F22-6580-7472608E1019"/>
+</associations>
+</Column>
+<Column name="DateHired" id="3E6B4828-0C21-93D2-7144-4EA3BDFE3485">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>8F93044A-2695-7B91-530A-16FE1FA3103D</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specialty" id="78035F23-3A77-DFA7-D2B2-24335225D90B">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>2AF88B5C-5E55-4602-4183-ED234E5E4778</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23E44A42-F194-8232-4613-7A479552852B" name="Employee_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>827925DF-E505-5CB6-F4F4-474CEFB710DB</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F721514A-632D-6775-3681-D0D22C2B6F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54B7B3B1-5DFC-175C-845D-B649AA14C0AC" name="Employee_Person_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>17CDA291-EC71-18CA-C79D-70C77A729EBF</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F721514A-632D-6775-3681-D0D22C2B6F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

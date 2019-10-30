@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0D86741-8911-0A55-B90F-127100712A75" name="Bed">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>9A709521-7B0F-1C20-378C-6A6AB6627510</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BedID" id="888AB4E4-05E4-083C-8E32-B4B6D951F8B9">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>54696517-3A2C-6CDB-C53E-83A9B59045F8</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RoomNumber" id="38EE6F34-2B35-5A61-8704-61755B7466D5">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>ED1911FE-1430-3EAF-1172-057DB0205CE7</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CareCenterID" id="1BED931D-FB0C-06B4-1BDC-E988EE4BA8D3">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>30764393-7F72-FD24-F9BC-5CBE5EF1767C</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_PersonID" id="D9540710-AA11-7DBE-E7B2-8F72703E0B35">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>BCA0CA17-1E0F-78F2-FA3B-B75438A98700</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98095B9D-8355-C199-E52D-5F6EDA73340B" referredColumn="D818B261-CF15-9740-C18B-90AE38CEFDEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D4805CA-2399-2A90-6AF7-DC0B483F4C10" name="Bed_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>54BF2067-B461-8A44-76C4-09DE1B509C72</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="888AB4E4-05E4-083C-8E32-B4B6D951F8B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4A04D03-8011-0457-E8B0-AF9E7EFABAF3" name="Bed__IDX">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D9540710-AA11-7DBE-E7B2-8F72703E0B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AED6D20-323A-B5DD-B54E-1FE56CBEF948" name="Bed_Patient_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9540710-AA11-7DBE-E7B2-8F72703E0B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

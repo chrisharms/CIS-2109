@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B7BD362-74C8-911E-5B55-11048B9D9E84" name="Patient">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>10D4521A-1487-4126-84C2-A14ABFFBED0A</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonID" id="D818B261-CF15-9740-C18B-90AE38CEFDEC">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>F9740338-C0F9-60A2-1359-86106FF32EE2</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91B3DFEB-5806-773B-F301-56B8CB821406" referredColumn="B7F016EC-4DF1-2F22-6580-7472608E1019"/>
+</associations>
+</Column>
+<Column name="ContactDate" id="F791240C-269B-B572-8BEF-53EC366C5704">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>2D6CFDC6-6E6E-5EBE-1B5B-8452C1261F2E</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Physician_PersonID" id="F2A62197-24E8-D47B-1785-E8281DC48E63">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>8AFBDFB2-6DAA-BA85-82D4-9911C0EC0553</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F0B0A44-99C0-B399-D86D-19429AC4191F" referredColumn="4601E6E8-6C1B-42D3-949D-A05A2DD0BC8F"/>
+</associations>
+</Column>
+<Column name="Diagnosis_DiagnosisID" id="952FD943-762C-67AB-56AB-26D323220B11">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>A5C13E5D-DB4E-E46B-3B10-EA2F7BBDD74F</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E02F2973-1B72-3BCF-7439-2F7F19139581" referredColumn="0E8A0EB6-D24B-2EC6-0748-8DA7C640FB4E"/>
+</associations>
+</Column>
+<Column name="Bed_BedID" id="91A18EFD-CB37-1F29-0B47-3F7A2B97A6EC">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>52CEE092-150D-A689-83A9-FD1604DC5161</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84DCBF65-2741-8095-B6E3-E0B6540C1B65" referredColumn="888AB4E4-05E4-083C-8E32-B4B6D951F8B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55F00566-1388-DD03-501D-3E40DC1C5F13" name="Patient_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>827925DF-E505-5CB6-F4F4-474CEFB710DB</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D818B261-CF15-9740-C18B-90AE38CEFDEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F903AD34-0A9E-0203-2FC0-C0474DE44CA4" name="Patient__IDX">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="91A18EFD-CB37-1F29-0B47-3F7A2B97A6EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE85ACE5-545B-48FB-1BEE-3078ECF75E5F" name="Patient_Person_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>81D72614-1ADB-ECBF-64CF-6C442F0557ED</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D818B261-CF15-9740-C18B-90AE38CEFDEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEBDA095-1B76-36CB-CC13-41527A21BF63" name="Patient_Physician_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>CB27E672-7F0E-A329-1B65-5ECA0807409C</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2A62197-24E8-D47B-1785-E8281DC48E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D4AD55F-8F94-75EC-C1F9-05A1A5285DF8" name="Patient_Diagnosis_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>8ECB818F-A688-D4F5-B071-691126827DCA</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="952FD943-762C-67AB-56AB-26D323220B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AE0639E-79B6-1738-D5BE-B316DF4322CC" name="Patient_Bed_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91A18EFD-CB37-1F29-0B47-3F7A2B97A6EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

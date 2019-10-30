@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="1A87CD84-8121-797F-68FF-B4FF4AB4D9F5" name="FKArc_1">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>1EE020E0-BA93-A729-3F48-F807F99CDF18</table>
+<discriminatorColumn>987B5C89-1A18-3986-28F5-60B81B822B84</discriminatorColumn>
+<fkeys>
+<fkeyID>B6FC710F-5294-62AB-652B-4705152B2955</fkeyID>
+<fkeyID>EED12BCB-2CB6-86D8-45BC-DFDE21A37956</fkeyID>
+<fkeyID>836E72E7-A80D-79C7-4D36-35BC1C2F2AC9</fkeyID>
+<fkeyID>91B3DFEB-5806-773B-F301-56B8CB821406</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EED12BCB-2CB6-86D8-45BC-DFDE21A37956" containerWithKeyObject="9C5DFFEB-8AE1-0D15-FC18-F0D97988C6AF" localFKIndex="54B7B3B1-5DFC-175C-845D-B649AA14C0AC" name="Employee_Person_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>17CDA291-EC71-18CA-C79D-70C77A729EBF</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<referredTableLongName>Person</referredTableLongName>
+<arc>1A87CD84-8121-797F-68FF-B4FF4AB4D9F5</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1EE020E0-BA93-A729-3F48-F807F99CDF18</referredTableID>
+<keyObject>101196D8-D2D0-1089-D840-0DF4B162C77A</keyObject>
+<referredKeyID>101196D8-D2D0-1089-D840-0DF4B162C77A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PersonID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Employee</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D4FF30B-C8C8-1655-AF5B-78376BB58965" containerWithKeyObject="C7AA1DBF-7753-B772-4520-00F7C15ADE33" localFKIndex="68231F3A-513E-2C62-4012-F454CCC25E2F" name="Order_Treatment_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<generatorID>E28BEC43-510C-6895-5110-3AFD0EF27572</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<referredTableLongName>Treatment</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBC1D2EF-DA70-6CBB-B408-2325C90D7A11</referredTableID>
+<keyObject>1530D520-FEB9-4415-91C0-04951A4755F8</keyObject>
+<referredKeyID>1530D520-FEB9-4415-91C0-04951A4755F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TreatmentID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
