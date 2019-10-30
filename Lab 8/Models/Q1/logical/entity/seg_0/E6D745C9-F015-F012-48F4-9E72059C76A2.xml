@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="592C9D3E-2666-97F0-D6C5-D6F7110F9732" name="Employee">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6D745C9-F015-F012-48F4-9E72059C76A2" name="Physician">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:02:16 UTC</createdTime>
+<createdTime>2019-10-30 18:46:02 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -11,25 +11,14 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>A439AC46-3E0F-1815-A06E-F4BBBAD28DE0</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="EmployeeID" id="52DD9B31-E89B-7364-A78B-C24104BEFD2F">
+<Attribute name="PagerNumber" id="DB079889-6B25-7EEF-E37C-F0341EC5F0DB">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:02:23 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EmployeeName" id="E5348BFC-3A05-18C7-A2E3-55018E3C4D57">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:02:39 UTC</createdTime>
+<createdTime>2019-10-30 18:46:41 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -37,22 +26,34 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4B190E0C-BAE4-CDC4-2671-5141CEF39C4C" name="Employee PK">
+<Attribute name="DEANumber" id="BCE0F8D6-15C8-9284-640E-AEFF0C21C979">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:02:57 UTC</createdTime>
+<createdTime>2019-10-30 18:46:57 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>52DD9B31-E89B-7364-A78B-C24104BEFD2F</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specialty" id="9A439864-53B7-B37C-1AF0-4BE51D669848">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:49:09 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

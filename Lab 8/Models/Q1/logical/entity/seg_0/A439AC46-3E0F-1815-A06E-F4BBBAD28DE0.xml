@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="489B1970-49FA-8F94-C60C-F743466158AC" name="Patient Info">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A439AC46-3E0F-1815-A06E-F4BBBAD28DE0" name="Person">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:33:47 UTC</createdTime>
+<createdTime>2019-10-30 18:38:01 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -14,75 +14,24 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>84CA38D3-6889-3CC7-BC0B-E5727320ACB3</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PatientWeight" id="9CB1241A-0F25-7B84-03E4-75C1E5A7697E">
+<Attribute name="PersonID" id="F9740338-C0F9-60A2-1359-86106FF32EE2">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:33:55 UTC</createdTime>
+<createdTime>2019-10-30 18:38:12 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PatientBloodPressure" id="58DD93C9-B572-D08B-CAAA-1B1198995642">
+<Attribute name="PersonName" id="42D82A87-B231-2FE7-BFE5-96A60E566779">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:34:27 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PatientPulse" id="1C9E1AAA-9B43-40A3-74CC-CC75C686F968">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:34:55 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PatientTemperature" id="15E727C9-A3DE-9559-2BAF-25EF7B057055">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:35:10 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DateTime" id="6E635C68-F882-BCC7-8D16-5DF532E225CA">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:35:27 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VisitReason" id="FCDCD87A-676C-0F17-21AA-970F97AF585D">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:35:46 UTC</createdTime>
+<createdTime>2019-10-30 18:39:00 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -93,9 +42,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Symptoms" id="FCB481FB-D283-CFBD-6DD0-45500D50C011">
+<Attribute name="PersonAddress" id="F5EA7462-F9F5-68EB-A500-2CB0D595CB56">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:36:19 UTC</createdTime>
+<createdTime>2019-10-30 18:39:16 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -106,47 +55,110 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PersonID" id="B8E62B67-B8CE-53E5-D592-AF06E9813B30">
+<Attribute name="PersonCity" id="A37ECF6D-6861-3815-B146-4BA4E0F8DBE4">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-30 18:58:22 UTC</createdTime>
-<generatorID>9265580B-450A-1C9F-A4F7-15D7C065136D</generatorID>
+<createdTime>2019-10-30 18:39:34 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<referedAttribute>F9740338-C0F9-60A2-1359-86106FF32EE2</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonState" id="574AE197-4502-5324-85EA-4CFD40BD89F5">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:39:43 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonZip" id="205F06BC-8A2C-8666-89C0-11367FD366DC">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:39:52 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PersonID1" id="376BCC89-E7CB-68DA-E882-E729A4D5A27C">
+<Attribute name="PersonDOB" id="9550E7F4-081B-6A9C-4005-65FE4694044E">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-30 18:58:57 UTC</createdTime>
-<generatorID>E7308F6F-7D0B-625F-9F3C-55C6BCC638DC</generatorID>
+<createdTime>2019-10-30 18:40:02 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<referedAttribute>F9740338-C0F9-60A2-1359-86106FF32EE2</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonPhone" id="197FC297-164C-C767-8F83-F75AEC99614E">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:40:18 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonEmail" id="3194C80A-CBF6-C50B-4A9B-4DE2759031CD">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:40:35 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonType" id="84CA38D3-6889-3CC7-BC0B-E5727320ACB3">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 18:43:04 UTC</createdTime>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E1764EE2-40DB-F06A-FDE0-0E2ACC0965A8" name="Patient Info PK">
+<identifier id="827925DF-E505-5CB6-F4F4-474CEFB710DB" name="Person PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:37:03 UTC</createdTime>
+<createdTime>2019-10-30 18:38:58 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B8E62B67-B8CE-53E5-D592-AF06E9813B30</attributeRef>
-<attributeRef>376BCC89-E7CB-68DA-E882-E729A4D5A27C</attributeRef>
+<attributeRef>F9740338-C0F9-60A2-1359-86106FF32EE2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

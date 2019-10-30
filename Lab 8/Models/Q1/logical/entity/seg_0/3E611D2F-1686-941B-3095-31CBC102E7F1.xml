@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F10B738B-9450-DC27-7842-FF85FCA281EB" name="Physician">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E611D2F-1686-941B-3095-31CBC102E7F1" name="Employee">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 00:48:43 UTC</createdTime>
+<createdTime>2019-10-30 18:41:55 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -11,25 +11,14 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>A439AC46-3E0F-1815-A06E-F4BBBAD28DE0</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PhysicianID" id="5E124DAA-CC46-5CF7-E485-77D5BA49B441">
+<Attribute name="DateHired" id="8F93044A-2695-7B91-530A-16FE1FA3103D">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 00:48:51 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PhysicianName" id="E2CECEB3-FF7A-D7C0-88EF-6A41A941BA74">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-25 00:49:11 UTC</createdTime>
+<createdTime>2019-10-30 18:42:16 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -37,22 +26,21 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0982DEB2-83E2-98A4-8C02-6093919C92EC" name="Physician PK">
+<Attribute name="Specialty" id="2AF88B5C-5E55-4602-4183-ED234E5E4778">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 00:49:10 UTC</createdTime>
+<createdTime>2019-10-30 18:49:58 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>5E124DAA-CC46-5CF7-E485-77D5BA49B441</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

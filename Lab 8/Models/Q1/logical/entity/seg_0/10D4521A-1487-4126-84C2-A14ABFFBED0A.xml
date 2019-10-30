@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A709521-7B0F-1C20-378C-6A6AB6627510" name="Bed">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10D4521A-1487-4126-84C2-A14ABFFBED0A" name="Patient">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:01:05 UTC</createdTime>
+<createdTime>2019-10-30 18:47:42 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -11,25 +11,14 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>A439AC46-3E0F-1815-A06E-F4BBBAD28DE0</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="BedID" id="54696517-3A2C-6CDB-C53E-83A9B59045F8">
+<Attribute name="ContactDate" id="2D6CFDC6-6E6E-5EBE-1B5B-8452C1261F2E">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:01:32 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="RoomNumber" id="ED1911FE-1430-3EAF-1172-057DB0205CE7">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:01:49 UTC</createdTime>
+<createdTime>2019-10-30 18:47:51 UTC</createdTime>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -37,26 +26,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CareCenterID" id="30764393-7F72-FD24-F9BC-5CBE5EF1767C">
+<Attribute name="PersonID" id="8AFBDFB2-6DAA-BA85-82D4-9911C0EC0553">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:02:02 UTC</createdTime>
-<ownerDesignName>Q1</ownerDesignName>
-<engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PersonID" id="BCA0CA17-1E0F-78F2-FA3B-B75438A98700">
-<createdBy>charm</createdBy>
-<createdTime>2019-10-30 19:16:24 UTC</createdTime>
-<generatorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</generatorID>
+<createdTime>2019-10-30 19:14:31 UTC</createdTime>
+<generatorID>CB27E672-7F0E-A329-1B65-5ECA0807409C</generatorID>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -67,19 +43,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="54BF2067-B461-8A44-76C4-09DE1B509C72" name="Bed PK">
+<Attribute name="DiagnosisID" id="A5C13E5D-DB4E-E46B-3B10-EA2F7BBDD74F">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-25 01:01:48 UTC</createdTime>
+<createdTime>2019-10-30 19:15:23 UTC</createdTime>
+<generatorID>8ECB818F-A688-D4F5-B071-691126827DCA</generatorID>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>54696517-3A2C-6CDB-C53E-83A9B59045F8</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
+<referedAttribute>11F82080-8AE2-C660-65D3-1C2E1232C4D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BedID" id="52CEE092-150D-A689-83A9-FD1604DC5161">
+<createdBy>charm</createdBy>
+<createdTime>2019-10-30 19:16:33 UTC</createdTime>
+<generatorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</generatorID>
+<ownerDesignName>Q1</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<referedAttribute>54696517-3A2C-6CDB-C53E-83A9B59045F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

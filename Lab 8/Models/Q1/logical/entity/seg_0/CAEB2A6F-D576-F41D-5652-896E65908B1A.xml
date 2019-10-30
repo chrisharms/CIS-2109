@@ -79,15 +79,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PhysicianID" id="D69F6321-4F52-526E-D95C-B941DB9F43B1">
+<Attribute name="PersonID" id="05457DDE-46CD-1F64-FB8D-3CD3CD82A027">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-28 16:47:36 UTC</createdTime>
-<generatorID>7AB543B4-7AA8-77A6-2231-F306A371049F</generatorID>
+<createdTime>2019-10-30 19:14:54 UTC</createdTime>
+<generatorID>D5D211AC-3486-937A-7B8A-63BDEAD2B309</generatorID>
 <ownerDesignName>Q1</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
 </engineerTo>
-<referedAttribute>5E124DAA-CC46-5CF7-E485-77D5BA49B441</referedAttribute>
+<referedAttribute>F9740338-C0F9-60A2-1359-86106FF32EE2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
