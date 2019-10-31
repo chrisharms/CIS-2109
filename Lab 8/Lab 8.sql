@@ -22,12 +22,10 @@ ALTER TABLE bed ADD CONSTRAINT bed_pk PRIMARY KEY ( bedid );
 CREATE TABLE diagnosis (
     diagnosisid            INTEGER NOT NULL,
     diagnosisname          VARCHAR(30)
---  WARNING: CHAR size not specified 
     ,
     diagnosisdatetime      DATE,
     diagnosiscode          INTEGER,
     diagnosisdescription   VARCHAR2(50) 
---  ERROR: VARCHAR2 size not specified 
     ,
     physician_personid     INTEGER NOT NULL
 );
@@ -38,7 +36,6 @@ CREATE TABLE employee (
     personid    INTEGER NOT NULL,
     datehired   DATE,
     specialty   VARCHAR2(15) 
---  ERROR: VARCHAR2 size not specified 
 );
 
 ALTER TABLE employee ADD CONSTRAINT employee_pk PRIMARY KEY ( personid );
@@ -76,10 +73,8 @@ CREATE TABLE patient_info (
     patienttemperature     INTEGER,
     datetime               DATE,
     visitreason            VARCHAR2(50) 
---  ERROR: VARCHAR2 size not specified 
     ,
     symptoms               VARCHAR2(50) 
---  ERROR: VARCHAR2 size not specified 
     ,
     patient_personid       INTEGER NOT NULL,
     employee_personid      INTEGER NOT NULL
@@ -91,22 +86,17 @@ ALTER TABLE patient_info ADD CONSTRAINT patient_info_pk PRIMARY KEY ( patient_pe
 CREATE TABLE person (
     personid        INTEGER NOT NULL,
     personname      VARCHAR2(20) 
---  ERROR: VARCHAR2 size not specified 
     ,
     personaddress   VARCHAR2(20) 
---  ERROR: VARCHAR2 size not specified 
     ,
     personcity      VARCHAR2(20) 
---  ERROR: VARCHAR2 size not specified 
     ,
     personstate     CHAR(2) 
---  ERROR: VARCHAR2 size not specified 
     ,
     personzip       INTEGER,
     persondob       DATE,
     personphone     INTEGER,
     personemail     VARCHAR2(20) 
---  ERROR: VARCHAR2 size not specified 
     ,
     persontype      CHAR(9) NOT NULL
 );
@@ -127,7 +117,6 @@ CREATE TABLE physician (
     pagernumber   INTEGER,
     deanumber     INTEGER,
     specialty     VARCHAR2(20) 
---  ERROR: VARCHAR2 size not specified 
 );
 
 ALTER TABLE physician ADD CONSTRAINT physician_pk PRIMARY KEY ( personid );
@@ -135,12 +124,10 @@ ALTER TABLE physician ADD CONSTRAINT physician_pk PRIMARY KEY ( personid );
 CREATE TABLE treatment (
     treatmentid        INTEGER NOT NULL,
     treatmentname      VARCHAR2(20) 
---  WARNING: CHAR size not specified 
     ,
     treatmentdate      DATE,
     treatmenttime      DATE,
     treatmentresults   VARCHAR2(50) 
---  ERROR: VARCHAR2 size not specified 
 );
 
 ALTER TABLE treatment ADD CONSTRAINT treatment_pk PRIMARY KEY ( treatmentid );
@@ -148,10 +135,8 @@ ALTER TABLE treatment ADD CONSTRAINT treatment_pk PRIMARY KEY ( treatmentid );
 CREATE TABLE volunteer (
     personid    INTEGER NOT NULL,
     skills      VARCHAR2(30) 
---  ERROR: VARCHAR2 size not specified 
     ,
     interests   VARCHAR2(30) 
---  ERROR: VARCHAR2 size not specified 
 );
 
 ALTER TABLE volunteer ADD CONSTRAINT volunteer_pk PRIMARY KEY ( personid );
