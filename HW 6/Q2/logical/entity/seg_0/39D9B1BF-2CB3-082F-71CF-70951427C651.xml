@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39D9B1BF-2CB3-082F-71CF-70951427C651" name="VendorPurchase">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:04:20 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LastPurchaseDate" id="28AF5DE2-182F-0F78-6021-9AFD34075644">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:04:29 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="E1B49D17-8CAB-6AE7-3C3A-3D204704A6FA">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:05:23 UTC</createdTime>
+<generatorID>C3AF5981-D61D-3C5D-96FD-98D718AE1BFC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>8E55C410-795D-C571-CF30-E9A74A36EED8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepartmentID" id="8DF74C86-79A0-6F3E-B68F-2847A3DD4D55">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:05:30 UTC</createdTime>
+<generatorID>CD73F9FB-549A-CC8B-666E-860BC695284D</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>47088ECE-EC3A-60E2-775C-6905F400C10E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA76F0FD-7B6B-6C6D-DF1A-B2F15C48D2B3" name="VendorPurchase PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:05:23 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1B49D17-8CAB-6AE7-3C3A-3D204704A6FA</attributeRef>
+<attributeRef>8DF74C86-79A0-6F3E-B68F-2847A3DD4D55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

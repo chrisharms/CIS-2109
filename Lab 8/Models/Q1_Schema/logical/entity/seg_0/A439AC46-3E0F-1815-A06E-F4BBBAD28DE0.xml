@@ -14,7 +14,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<generateDiscrimColumn>true</generateDiscrimColumn>
 <discriminatorAttributeID>84CA38D3-6889-3CC7-BC0B-E5727320ACB3</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="PersonID" id="F9740338-C0F9-60A2-1359-86106FF32EE2">
@@ -133,9 +132,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PersonType" id="84CA38D3-6889-3CC7-BC0B-E5727320ACB3">
+<Attribute name="IsVolunteer" id="7AB58CBA-3B5A-98EC-A9ED-3BA7F035F5E1">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-30 18:43:04 UTC</createdTime>
+<createdTime>2019-11-01 15:25:47 UTC</createdTime>
 <ownerDesignName>Q1_Schema</ownerDesignName>
 <engineerTo>
 <item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
@@ -143,9 +142,51 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsEmployee" id="D036DB1D-3F2D-6D37-0839-9482C2556EB5">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 15:26:22 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsPatient" id="B0F0D251-AA7F-F087-9B14-7F7D6D2FC4D7">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 15:26:34 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsPhysician" id="58FE7712-28DF-F3AE-6A56-50B1E7892D06">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 15:26:52 UTC</createdTime>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<engineerTo>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -153,8 +194,9 @@
 <createdBy>charm</createdBy>
 <createdTime>2019-10-30 18:38:58 UTC</createdTime>
 <ownerDesignName>Q1_Schema</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="true"/>
+<item key="76FD49E1-6196-1B19-E6AE-49E4E10F50C2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

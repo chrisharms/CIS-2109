@@ -115,26 +115,57 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PersonType" id="987B5C89-1A18-3986-28F5-60B81B822B84">
+<Column name="IsVolunteer" id="A075F3EA-6FD2-4D2E-68FD-DA489AA6666B">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-30 20:41:17 UTC</createdTime>
-<generatorID>84CA38D3-6889-3CC7-BC0B-E5727320ACB3</generatorID>
+<createdTime>2019-11-01 16:33:03 UTC</createdTime>
+<generatorID>7AB58CBA-3B5A-98EC-A9ED-3BA7F035F5E1</generatorID>
 <ownerDesignName>Q1_Schema</ownerDesignName>
-<constraintName>CH_INH_Person</constraintName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>9</dataTypeSize>
-<listOfValues>
-<valueDef value="Employee" description="entity Employee"/>
-<valueDef value="Patient" description="entity Patient"/>
-<valueDef value="Person" description="entity Person"/>
-<valueDef value="Physician" description="entity Physician"/>
-<valueDef value="Volunteer" description="entity Volunteer"/>
-</listOfValues>
-<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="IsEmployee" id="4827281C-011D-01D9-6462-F6928A853A66">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 16:33:03 UTC</createdTime>
+<generatorID>D036DB1D-3F2D-6D37-0839-9482C2556EB5</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsPatient" id="9DDCBD11-140D-1634-D94D-AC34C5CDA72C">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 16:33:03 UTC</createdTime>
+<generatorID>B0F0D251-AA7F-F087-9B14-7F7D6D2FC4D7</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsPhysician" id="BAD419B4-F2BF-C3B7-DA51-D51D63ABAF97">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 16:33:03 UTC</createdTime>
+<generatorID>58FE7712-28DF-F3AE-6A56-50B1E7892D06</generatorID>
+<ownerDesignName>Q1_Schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

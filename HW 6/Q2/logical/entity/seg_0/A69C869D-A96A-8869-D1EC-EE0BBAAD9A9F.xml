@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A69C869D-A96A-8869-D1EC-EE0BBAAD9A9F" name="Assignment">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 19:26:25 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="6035679A-3DD3-9DE6-ACD7-D7DE08713AB7">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 19:27:19 UTC</createdTime>
+<generatorID>7A5B1E75-E662-5B0F-659F-6299DAF07AF7</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>C11F92D2-0E17-D71F-39B4-A1B02E55CE43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocationID" id="2E02BDC5-DF3D-D236-CFA3-7201B6AD8FCB">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 19:27:26 UTC</createdTime>
+<generatorID>487AE101-E60B-FF4D-E7E7-CC9194C946AD</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>93C51E13-D4A0-016D-ECA9-423488C06518</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProjectID" id="B9CC117D-4317-0B76-C2CC-005849C8C2A9">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 19:27:34 UTC</createdTime>
+<generatorID>EF47CFEE-E76C-925B-88D6-E6ECA26C4F7B</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>4FBE0C95-A899-D81A-9071-64A6A314EC14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAB0F777-0CD3-5DB7-57C8-8CE814A61CF4" name="Assignment PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 19:27:19 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6035679A-3DD3-9DE6-ACD7-D7DE08713AB7</attributeRef>
+<attributeRef>2E02BDC5-DF3D-D236-CFA3-7201B6AD8FCB</attributeRef>
+<attributeRef>B9CC117D-4317-0B76-C2CC-005849C8C2A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
