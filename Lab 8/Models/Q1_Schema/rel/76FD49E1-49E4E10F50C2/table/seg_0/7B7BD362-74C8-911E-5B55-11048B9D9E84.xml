@@ -76,7 +76,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="84DCBF65-2741-8095-B6E3-E0B6540C1B65" referredColumn="888AB4E4-05E4-083C-8E32-B4B6D951F8B9"/>
+<colAssociation fkAssociation="DFC48E2D-63C0-7ED0-9495-2D4EA08B3109" referredColumn="888AB4E4-05E4-083C-8E32-B4B6D951F8B9"/>
 </associations>
 </Column>
 </columns>
@@ -137,9 +137,9 @@
 <colUsage columnID="952FD943-762C-67AB-56AB-26D323220B11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2AE0639E-79B6-1738-D5BE-B316DF4322CC" name="Patient_Bed_FK">
+<ind_PK_UK id="D1376EF8-9E72-06EB-E315-DCBE5CE7730E" name="Patient_Bed_FK">
 <createdBy>charm</createdBy>
-<createdTime>2019-10-30 20:41:17 UTC</createdTime>
+<createdTime>2019-11-01 16:39:01 UTC</createdTime>
 <generatorID>964D729E-C145-EEC7-AD08-BFC1AD0CB869</generatorID>
 <ownerDesignName>Q1_Schema</ownerDesignName>
 <indexState>Foreign Key</indexState>

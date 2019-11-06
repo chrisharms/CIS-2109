@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F642903-281C-8AC2-DEFD-EC1F9779D31F" name="Marriage">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:09:19 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MarriageDate" id="5582B191-20F2-316E-D6D3-A7A51E0DC36F">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:09:24 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID1" id="709B91C8-C097-CEF9-FF51-F964282E0726">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:33:38 UTC</createdTime>
+<generatorID>E097E728-D13A-8379-A3E9-1EC6D793E53D</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>C11F92D2-0E17-D71F-39B4-A1B02E55CE43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="4C67E668-838B-73B6-0EA8-344E5A0BCED0">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:34:21 UTC</createdTime>
+<generatorID>E9C30818-1DB0-AFF4-C483-002CE5D0E2E8</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<referedAttribute>C11F92D2-0E17-D71F-39B4-A1B02E55CE43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82A627D8-68FD-E53D-EA59-2B612CCEC26E" name="Marriage PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-01 18:09:54 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="AA8CCD0D-10E0-5288-D74F-4EA3F7018C0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C67E668-838B-73B6-0EA8-344E5A0BCED0</attributeRef>
+<attributeRef>709B91C8-C097-CEF9-FF51-F964282E0726</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
