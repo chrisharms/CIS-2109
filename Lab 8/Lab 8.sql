@@ -80,8 +80,7 @@ CREATE TABLE patient_info (
     employee_personid      INTEGER NOT NULL
 );
 
-ALTER TABLE patient_info ADD CONSTRAINT patient_info_pk PRIMARY KEY ( patient_personid,
-                                                                      employee_personid );
+ALTER TABLE patient_info ADD CONSTRAINT patient_info_pk PRIMARY KEY ( patient_personid,employee_personid );
 
 CREATE TABLE person (
     personid        INTEGER NOT NULL,
