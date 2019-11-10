@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE6508C4-3994-7490-263B-01C91EF0FE7D" name="OrderLine">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:45:38 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="21471B41-D086-1919-8F4B-A322263F722D">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:47:23 UTC</createdTime>
+<generatorID>82414BF9-95D8-21E2-6257-96FB232E72D5</generatorID>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID" id="F96D1BA3-AA5F-EB55-8B7B-E74D5AD7E1F9">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:47:13 UTC</createdTime>
+<generatorID>1C1CE452-D986-47BC-D764-423E065F9350</generatorID>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>9A290399-126C-3EA4-5F8B-19063B604288</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderedQuantity" id="5B5BA1EA-AB75-74A0-37A4-F2DAF4608DFE">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:46:33 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2142E27D-ADC9-00F5-C3C7-EE0812ECAAB8" name="OrderLine PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:47:13 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F96D1BA3-AA5F-EB55-8B7B-E74D5AD7E1F9</attributeRef>
+<attributeRef>21471B41-D086-1919-8F4B-A322263F722D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
