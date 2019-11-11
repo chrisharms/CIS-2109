@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E8E12B-24EB-B3EA-E742-E4750BED4010" name="Order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="477A0361-13E3-6F90-0DCD-82F344CEB7C1" name="PaymentPlan">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:43 UTC</createdTime>
+<createdTime>2019-11-11 18:05:10 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="OrderID" id="CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1">
+<Attribute name="PaymentPlanID" id="E2FB9DD3-1966-3CC9-56C9-481DBCD54F1C">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:47 UTC</createdTime>
+<createdTime>2019-11-11 18:05:26 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OrderDate" id="7D0B90D5-DDED-A62B-D67D-677B086D2871">
+<Attribute name="PaymentMethod" id="C95060E4-84A7-8B58-62B8-3362E3874C26">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:59 UTC</createdTime>
+<createdTime>2019-11-11 18:05:46 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -37,35 +37,34 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CustomerID" id="A814E4A2-5298-0624-D57D-0038DA6B2F8F">
+<Attribute name="PaymentPlanDuration" id="24883BD7-78DB-0D4B-DBA0-8E26697D7F7A">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:45:09 UTC</createdTime>
-<generatorID>0D5CDA81-18FB-D1D8-C390-8A436FF2CBA8</generatorID>
+<createdTime>2019-11-11 18:07:10 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
-<referedAttribute>10CC5B88-C4B0-1D26-8C27-C89A55D192BC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B4DC6975-2455-94E1-1A43-DA8C86B68EAF" name="Order PK">
+<identifier id="2A8A632E-E192-CF9A-1EE9-7E633401C042" name="PaymentPlan PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:56 UTC</createdTime>
+<createdTime>2019-11-11 18:05:45 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</attributeRef>
+<attributeRef>E2FB9DD3-1966-3CC9-56C9-481DBCD54F1C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

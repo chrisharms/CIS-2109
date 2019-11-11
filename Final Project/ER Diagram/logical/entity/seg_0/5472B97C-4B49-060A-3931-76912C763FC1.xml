@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E8E12B-24EB-B3EA-E742-E4750BED4010" name="Order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5472B97C-4B49-060A-3931-76912C763FC1" name="SponsoredProducts">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:43 UTC</createdTime>
+<createdTime>2019-11-11 18:17:53 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -15,21 +15,37 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="OrderID" id="CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1">
+<Attribute name="ProductID" id="3F2EB860-3710-8C54-CD92-95A7B89C0CBA">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:47 UTC</createdTime>
+<createdTime>2019-11-11 18:18:21 UTC</createdTime>
+<generatorID>43DD264B-0978-6EE6-CA3C-2C78BCA0E383</generatorID>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
+<referedAttribute>9A290399-126C-3EA4-5F8B-19063B604288</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OrderDate" id="7D0B90D5-DDED-A62B-D67D-677B086D2871">
+<Attribute name="SponsorID" id="53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:59 UTC</createdTime>
+<createdTime>2019-11-11 18:18:27 UTC</createdTime>
+<generatorID>37DB33DE-7A29-92E0-20BA-DFE1A5E91A18</generatorID>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>A3ACF22D-91C2-10B1-E3AB-C72CB315790F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductQuantity" id="C3F922BB-366F-9272-47F8-6D8DD31FEA64">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:18:45 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -37,35 +53,22 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CustomerID" id="A814E4A2-5298-0624-D57D-0038DA6B2F8F">
-<createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:45:09 UTC</createdTime>
-<generatorID>0D5CDA81-18FB-D1D8-C390-8A436FF2CBA8</generatorID>
-<ownerDesignName>ER Diagram</ownerDesignName>
-<engineerTo>
-<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
-</engineerTo>
-<referedAttribute>10CC5B88-C4B0-1D26-8C27-C89A55D192BC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B4DC6975-2455-94E1-1A43-DA8C86B68EAF" name="Order PK">
+<identifier id="12209BEF-02B0-3298-C709-14B40E2BFDA1" name="SponsoredProducts PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:26:56 UTC</createdTime>
+<createdTime>2019-11-11 18:18:21 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</attributeRef>
+<attributeRef>3F2EB860-3710-8C54-CD92-95A7B89C0CBA</attributeRef>
+<attributeRef>53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D24B7471-200D-1318-DB85-D82990045765" name="Product">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3972921-36A6-3E89-DD9F-72C36AE5E8EC" name="Vendor">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:04:15 UTC</createdTime>
+<createdTime>2019-11-11 18:00:30 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ProductID" id="9A290399-126C-3EA4-5F8B-19063B604288">
+<Attribute name="VendorID" id="D8D2D69E-6AE9-08C8-83DA-01194EBC589C">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:05:29 UTC</createdTime>
+<createdTime>2019-11-11 18:00:34 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -27,47 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProductName" id="BDD7650E-DBFC-2D60-4587-64F9518D12A0">
+<Attribute name="VendorName" id="F0C75395-3080-CF9F-2C1D-0341F10837C9">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:05:39 UTC</createdTime>
-<ownerDesignName>ER Diagram</ownerDesignName>
-<engineerTo>
-<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ProductPrice" id="1F3F979B-44B1-04A2-09AC-CED927735095">
-<createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:06:16 UTC</createdTime>
-<ownerDesignName>ER Diagram</ownerDesignName>
-<engineerTo>
-<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ProductCondition" id="F76C5322-2FE0-59DD-E1C6-9E365E510120">
-<createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:06:34 UTC</createdTime>
-<ownerDesignName>ER Diagram</ownerDesignName>
-<engineerTo>
-<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ProductDescription" id="3BC5ED14-3AD1-7E07-A1C6-B7C12ACFDB76">
-<createdBy>charm</createdBy>
-<createdTime>2019-11-11 18:03:53 UTC</createdTime>
+<createdTime>2019-11-11 18:00:52 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
@@ -76,32 +38,100 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CategoryID" id="CB65505C-9056-AF24-DDAC-DC433A7E882A">
+<Attribute name="VendorContactFirstName" id="DF0ED77C-94B2-85BC-0A3D-AA9431610F84">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:24:44 UTC</createdTime>
-<generatorID>A3188D1E-4371-BBF9-6375-623BB93C3049</generatorID>
+<createdTime>2019-11-11 18:01:12 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
-<referedAttribute>8E54A976-EC70-5B92-3C0A-FC83EDC8F8D4</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorContactLastName" id="2E78EEDC-A7CE-FC3B-6C0A-A22952E04380">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:01:25 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorPhone" id="8C2502CA-FDF9-2093-CC69-4DB5FA249D35">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:01:36 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="VendorID" id="EB4EEBAC-B937-5E30-0527-410DDF2FE02D">
+<Attribute name="VendorStreet" id="CD8BADE1-3D9E-20CF-C1EC-A08DC4BE5880">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-11 18:03:20 UTC</createdTime>
-<generatorID>9C3622C6-F0B1-5987-6AEB-181B1F2A8FF9</generatorID>
+<createdTime>2019-11-11 18:01:50 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
-<referedAttribute>D8D2D69E-6AE9-08C8-83DA-01194EBC589C</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorCity" id="FCAB510B-4682-2AA6-9B50-A4456628E538">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:02:08 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorState" id="AE2A48C9-4406-724D-1B56-7DB0989F45AC">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:02:19 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorZip" id="9A34138C-5826-A74E-31D5-54C8DADF2436">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:02:28 UTC</createdTime>
+<ownerDesignName>ER Diagram</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -109,16 +139,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F247096E-BC89-095F-0819-653412893BF7" name="Product PK">
+<identifier id="5463BE57-97AD-EB4A-EAE0-8B11EC1349FE" name="Vendor PK">
 <createdBy>charm</createdBy>
-<createdTime>2019-11-10 02:05:38 UTC</createdTime>
+<createdTime>2019-11-11 18:00:51 UTC</createdTime>
 <ownerDesignName>ER Diagram</ownerDesignName>
 <engineerTo>
 <item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9A290399-126C-3EA4-5F8B-19063B604288</attributeRef>
+<attributeRef>D8D2D69E-6AE9-08C8-83DA-01194EBC589C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
