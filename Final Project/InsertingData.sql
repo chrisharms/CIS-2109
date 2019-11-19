@@ -34,3 +34,30 @@ values (4,'Dell XPS 13',1300,'New','2018 Dell laptop thats brand new',2,1);
 
 insert into sponsor
 values (1,'Cool Recycling','Zack','Smart','34 Recycle Avenue','Greenville','NJ',12098);
+insert into sponsor
+values (2,'Donation Center','Jen','Long','531 Donate Way','Nashville','TN',10375);
+insert into sponsor
+values (3,'Best Buy','John','Stamos','23 Hollywood Blvd','Hollywood','CA',16325);
+
+insert into sponsoredproducts
+values (1,1,30);
+insert into sponsoredproducts
+values (3,1,36);
+insert into sponsoredproducts
+values (4,2,30);
+
+insert into sponsorcontacts
+values (1,1);
+insert into sponsorcontacts
+values (2,3);
+insert into sponsorcontacts
+values (3,3);
+
+insert into paymentplan
+values (1,'Credit Card',24);
+insert into paymentplan
+values (2,'Credit Card',36);
+insert into paymentplan
+values (3,'Check',12);
+insert into paymentplan
+values (4,'Cash',36);
