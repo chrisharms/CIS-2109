@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E8E12B-24EB-B3EA-E742-E4750BED4010" name="Order">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:26:43 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:26:47 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDate" id="7D0B90D5-DDED-A62B-D67D-677B086D2871">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:26:59 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="A814E4A2-5298-0624-D57D-0038DA6B2F8F">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:45:09 UTC</createdTime>
+<generatorID>0D5CDA81-18FB-D1D8-C390-8A436FF2CBA8</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>10CC5B88-C4B0-1D26-8C27-C89A55D192BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="CB777CCD-287E-0F5F-1E59-5B4D87D4B11E">
+<createdBy>rosek</createdBy>
+<createdTime>2019-11-13 16:04:34 UTC</createdTime>
+<generatorID>3A09F8D3-E3F5-0787-41F6-A18B2A492495</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>32300AA1-B28C-E68F-BDC4-54159FEA2994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4DC6975-2455-94E1-1A43-DA8C86B68EAF" name="Order PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-10 02:26:56 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

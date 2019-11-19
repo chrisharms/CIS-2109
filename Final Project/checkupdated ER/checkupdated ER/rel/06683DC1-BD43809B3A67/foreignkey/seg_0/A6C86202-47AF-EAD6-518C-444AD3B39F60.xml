@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6C86202-47AF-EAD6-518C-444AD3B39F60" containerWithKeyObject="42B940FE-A8CC-C710-69D0-E40555B8B8A5" localFKIndex="CE7DF6B6-9198-DBC4-50F1-CC6F76A472E6" name="PaymentRecords_PaymentPlan_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>9975B457-E22E-912B-31F8-29CC9791F126</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<referredTableLongName>PaymentPlan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>49E1118B-1FE6-7000-0E57-3CB0A514DCF1</referredTableID>
+<keyObject>CA3003C8-46E2-552D-E6F2-21D210054DD1</keyObject>
+<referredKeyID>CA3003C8-46E2-552D-E6F2-21D210054DD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PaymentPlanID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

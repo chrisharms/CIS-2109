@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="634E6C2A-3602-4BDA-E254-1C81B5327ECB" name="Sponsor">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>8DCD535B-FF5B-2FBC-0FF4-653BEC596F32</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SponsorID" id="2FC9543B-DDFF-4A24-7B8E-863CE698F706">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>A3ACF22D-91C2-10B1-E3AB-C72CB315790F</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorName" id="0C33C661-FA8C-AF8A-2A1E-5CA42A318EBE">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>0C5792E9-449F-3BA2-64A1-77F065BA1DD4</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorContactFirstName" id="8D0378BB-7792-58D9-10F8-57EC9BAF3A69">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>999FB858-3721-378A-23F5-06904814F3F0</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorContactLastName" id="C06E5264-AC9A-B669-42A7-90182F65683F">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>CB2DFF08-9483-6666-ECD7-930825D6848A</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorStreet" id="A3776556-F503-75F9-CECB-654EE847D7A0">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>272746E7-D951-CE06-CAA9-E27766CCFCDC</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorCity" id="C015FFBC-84C9-99C0-2948-DC8B7F9F430A">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>5FD44857-9341-9C09-8000-62DAC2EC196D</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorState" id="7D7F96E9-B49F-9861-DA3A-129F41B7483B">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>4A9EE5A8-FFD9-81B5-11A9-33AF48B88EEF</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SponsorZip" id="F6C3F1E9-1FBE-9C3A-AFEA-942B2F377BEA">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>CAC10224-09E2-E744-C54D-95B0A4F27FA8</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EF8CC89-9A51-2224-E2D9-FDCDACF53B6C" name="Sponsor_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>D9C7D66F-56F8-A353-5C66-82299F57C9CA</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FC9543B-DDFF-4A24-7B8E-863CE698F706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

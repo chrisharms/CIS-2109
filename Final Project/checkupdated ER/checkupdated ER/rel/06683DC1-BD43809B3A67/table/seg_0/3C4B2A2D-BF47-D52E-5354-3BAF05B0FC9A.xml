@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C4B2A2D-BF47-D52E-5354-3BAF05B0FC9A" name="SponsoredProducts">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>5472B97C-4B49-060A-3931-76912C763FC1</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ProductID" id="0BED7146-ED18-E77E-018E-9AC5A8685C24">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>3F2EB860-3710-8C54-CD92-95A7B89C0CBA</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE914DAE-0293-4705-C8B3-F7FD72CD388B" referredColumn="7B47AD91-EC0B-C063-38A4-9C142C5C1E7C"/>
+</associations>
+</Column>
+<Column name="Sponsor_SponsorID" id="36862B37-93DC-B9E8-6490-3054C2A36535">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0BFD441-9495-7D89-CDFC-19E5CEEDCADF" referredColumn="2FC9543B-DDFF-4A24-7B8E-863CE698F706"/>
+</associations>
+</Column>
+<Column name="ProductQuantity" id="C82801A6-0A49-1822-168A-475F071B8DB7">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>C3F922BB-366F-9272-47F8-6D8DD31FEA64</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1730F7EF-8AD0-58BD-4154-8040E4EB000B" name="SponsoredProducts_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>12209BEF-02B0-3298-C709-14B40E2BFDA1</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BED7146-ED18-E77E-018E-9AC5A8685C24"/>
+<colUsage columnID="36862B37-93DC-B9E8-6490-3054C2A36535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E9C3747-D24E-BC86-07FE-33251E912ABA" name="SponsoredProducts_Product_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>43DD264B-0978-6EE6-CA3C-2C78BCA0E383</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BED7146-ED18-E77E-018E-9AC5A8685C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0457CF4E-45AC-9314-1B67-B220518A79A6" name="SponsoredProducts_Sponsor_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>37DB33DE-7A29-92E0-20BA-DFE1A5E91A18</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36862B37-93DC-B9E8-6490-3054C2A36535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

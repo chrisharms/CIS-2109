@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFC016BD-8081-8183-0170-BAE2CCA24FB3" name="ProductCategory">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>3AF750B3-0EAF-6FED-4CFF-DEAF46DEB7CA</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CategoryID" id="3385577B-95EC-68F9-C6B9-8D66B9A6BEE3">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>8E54A976-EC70-5B92-3C0A-FC83EDC8F8D4</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductType" id="95215049-1AE6-2472-470A-6BC12E1F2699">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>36FE9067-9261-CCBF-CF07-1A0A7444B78C</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductTypeDescription" id="5F2E2798-0D40-8BD6-C045-7820709BE71D">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>8A0D0087-1AC6-277B-0637-F5BE315D0C8E</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F36EB62B-5D8B-7063-33EB-4DEEE079F560" name="ProductCategory_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>768B8C31-001E-7B92-4891-4A1EBEC22CE6</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3385577B-95EC-68F9-C6B9-8D66B9A6BEE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5472B97C-4B49-060A-3931-76912C763FC1" name="SponsoredProducts">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:17:53 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="3F2EB860-3710-8C54-CD92-95A7B89C0CBA">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:18:21 UTC</createdTime>
+<generatorID>43DD264B-0978-6EE6-CA3C-2C78BCA0E383</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>9A290399-126C-3EA4-5F8B-19063B604288</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SponsorID" id="53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:18:27 UTC</createdTime>
+<generatorID>37DB33DE-7A29-92E0-20BA-DFE1A5E91A18</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<referedAttribute>A3ACF22D-91C2-10B1-E3AB-C72CB315790F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductQuantity" id="C3F922BB-366F-9272-47F8-6D8DD31FEA64">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:18:45 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12209BEF-02B0-3298-C709-14B40E2BFDA1" name="SponsoredProducts PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:18:21 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="5E671632-B425-B3E0-F7D9-6A426D15B1FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F2EB860-3710-8C54-CD92-95A7B89C0CBA</attributeRef>
+<attributeRef>53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+create index order_customer_fk_index on "Order" (customer_customerid);
+create index order_employee_fk_index on "Order" (employee_employeeid);
+create index employee_supervisor_fk_index on employee (employee_employeeid);
+create index orderline_order_pk on orderline (order_orderid);
+create index orderline_product_pk on orderline (product_productid);
+create index paymentrecords_order_fk on paymentrecords (order_orderid);
+create index orderline_paymentplan_pk on paymentrecords (paymentplan_paymentplanid);
+create index orderline_order_pk on orderline (order_orderid);
+create index product_productcategory_fk on product (productcategory_categoryid);
+create index product_vendor_fk on product (vendor_vendorid);
+create index shipment_order_fk on shipment (order_orderid);
+create index shipment_product_fk on shipment (product_productid);
+create index sponsorcontacts_sponsor_fk on sponsorcontacts (sponsor_sponsorid);
+create index sponsorcontacts_employee_fk on sponsorcontacts (employee_employeeid);
+create index sponsoredproducts_product_fk on sponsoredproducts (product_productid);
+create index sponsoredproducts_sponsor_fk on sponsoredproducts (sponsor_sponsorid);

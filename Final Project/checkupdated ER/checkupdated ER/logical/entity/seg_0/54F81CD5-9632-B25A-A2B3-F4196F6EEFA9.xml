@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54F81CD5-9632-B25A-A2B3-F4196F6EEFA9" name="PaymentRecords">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:45:32 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentID" id="99F58017-8EE4-1E0C-6FC6-23F9229524EB">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:45:48 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentAmount" id="9E30D11E-3B72-BEB0-1631-DC66FF4396FE">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:46:09 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentDate" id="8DEF7D17-E682-38CF-F60F-623ECF5F1F02">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:47:41 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstDepositDate" id="FD87F53A-70FD-D1C1-BC02-FFCF0E15DD3A">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:46:33 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentDueDate" id="21B17483-14CE-D187-E204-FBF2B03788EC">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:47:20 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RemainingBalance" id="47A3F0E2-4062-9439-642B-D801BBF85A73">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:48:37 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderID" id="A7A38591-ECB6-3380-480E-F2532830C4BD">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:49:42 UTC</createdTime>
+<generatorID>166FC017-5236-93C2-D38A-5F4F42AA184A</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<referedAttribute>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentPlanID" id="E7A94853-2F78-384B-1DAB-56A74ACB197C">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:50:49 UTC</createdTime>
+<generatorID>9975B457-E22E-912B-31F8-29CC9791F126</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<referedAttribute>E2FB9DD3-1966-3CC9-56C9-481DBCD54F1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB5AFE46-36A5-B3D3-0D8B-3FA4C1E8A604" name="PaymentRecords PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-11 18:49:14 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<engineerTo>
+<item key="06683DC1-E343-21EF-F074-BD43809B3A67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99F58017-8EE4-1E0C-6FC6-23F9229524EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

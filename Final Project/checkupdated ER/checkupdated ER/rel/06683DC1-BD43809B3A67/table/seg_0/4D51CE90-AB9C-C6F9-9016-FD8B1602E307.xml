@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D51CE90-AB9C-C6F9-9016-FD8B1602E307" name="Relation_19">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sponsor_SponsorID" id="14B6164B-5209-7315-8B68-3DCA8D9CDC63">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8264B8A-02F9-ED5E-F623-0830F2401FBD" referredColumn="2FC9543B-DDFF-4A24-7B8E-863CE698F706"/>
+</associations>
+</Column>
+<Column name="Employee_EmployeeID" id="277F758E-5731-1F53-49A0-D8277DF556B9">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72B4F9C3-C9C1-93BC-01D9-BDD62559C7D1" referredColumn="BFD42A4B-555A-1F7A-938F-382E094CD3FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1338BA7-FC57-64BB-1674-CD86CD4EEB10" name="Relation_19_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B6164B-5209-7315-8B68-3DCA8D9CDC63"/>
+<colUsage columnID="277F758E-5731-1F53-49A0-D8277DF556B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52312A40-1172-857C-BACE-3D08FFB06AA2" name="Relation_19_Sponsor_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>9639004A-4AA2-EA54-660F-8F12A8C02C8E</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B6164B-5209-7315-8B68-3DCA8D9CDC63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D40C4BD-9EAD-4EA6-722C-D7885E7583C1" name="Relation_19_Employee_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>9639004A-4AA2-EA54-660F-8F12A8C02C8E</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277F758E-5731-1F53-49A0-D8277DF556B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

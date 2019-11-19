@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62519837-C2D5-D297-F742-53B04DB0B2F3" name="Order">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>E9E8E12B-24EB-B3EA-E742-E4750BED4010</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderID" id="FAE871C3-C3B4-9EE0-27F0-22B496C96881">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>CEEACD62-C4F5-D36E-3BB1-84E30A7A0CE1</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderDate" id="2C9037FC-C7EE-83E3-F31C-C90FB7536B0F">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>7D0B90D5-DDED-A62B-D67D-677B086D2871</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_CustomerID" id="33486645-00A1-23EC-BBB6-649FE16C5796">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>A814E4A2-5298-0624-D57D-0038DA6B2F8F</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0AA67A1-132A-5131-367C-07CE00BD290F" referredColumn="CA135CED-B23F-6372-8FF4-1B22AFC6FE51"/>
+</associations>
+</Column>
+<Column name="Employee_EmployeeID" id="26882592-3620-52FF-115C-D382902F4EAB">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>CB777CCD-287E-0F5F-1E59-5B4D87D4B11E</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FABAFDA0-C391-4779-8A7B-A159FF185B34" referredColumn="BFD42A4B-555A-1F7A-938F-382E094CD3FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F26AA1C-155E-7183-BEB6-7164E4CED75B" name="Order_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>B4DC6975-2455-94E1-1A43-DA8C86B68EAF</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE871C3-C3B4-9EE0-27F0-22B496C96881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62818E21-EE77-CCC5-45BB-E0849F1F4621" name="Order_Customer_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>0D5CDA81-18FB-D1D8-C390-8A436FF2CBA8</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33486645-00A1-23EC-BBB6-649FE16C5796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEC25366-01AA-999D-BA1D-5D476E8A444F" name="Order_Employee_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-11-15 16:48:53 UTC</createdTime>
+<generatorID>3A09F8D3-E3F5-0787-41F6-A18B2A492495</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26882592-3620-52FF-115C-D382902F4EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
