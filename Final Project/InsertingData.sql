@@ -61,3 +61,14 @@ insert into paymentplan
 values (3,'Check',12);
 insert into paymentplan
 values (4,'Cash',36);
+
+insert into orderline
+values (1,2,2);
+insert into orderline
+values (2,4,4);
+insert into orderline
+values (3,1,1);
+insert into orderline
+values (4,2,2);
+insert into orderline
+values (2,2,5);
