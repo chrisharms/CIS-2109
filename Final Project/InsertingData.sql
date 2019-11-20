@@ -1,4 +1,5 @@
--- Figure out how to insert data from a text file, for ORDER TABLE
+-- Figure out how to insert data from a text file, for PAYMENTRECORDS
+
 insert into customer
 values (1,'Chris','Harms','3255 Dbms Lane','Templeville','PA',19121,6969696969,'chisiscool@temple.edu');
 insert into customer
@@ -72,3 +73,16 @@ insert into orderline
 values (4,2,2);
 insert into orderline
 values (2,2,5);
+
+insert into shipment
+values (1,'07-FEB-19',1,2,2);
+insert into shipment
+values (2,'28-AUG-18',2,4,4);
+insert into shipment
+values (3,'15-JUN-19',3,1,1);
+insert into shipment
+values (4,'17-MAR-19',4,2,2);
+insert into shipment
+values (5,'28-AUG-18',2,2,3);
+insert into shipment
+values (6,'28-AUG-18',2,2,2);
