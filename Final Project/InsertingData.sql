@@ -1,4 +1,18 @@
--- Figure out how to insert data from a text file, for PAYMENTRECORDS
+create directory paymentrecords_dir as 'C:\Users\charm\Documents\GitHub\CIS-2109\Final Project\';
+create table paymentrecords_ext (
+paymentid                   number(38,0),
+paymentamount               number,
+paymentdate                 date,
+firstdepositdate            date,
+finalpaymentduedate         date,
+remainingbalance            number,
+order_orderid               number(38,0),
+paymentplan_paymentplanid   number(38,0))
+organization external (
+        type oracle_loader
+        default directory paymentrecords_dir
+        access parameters (fields terminated by ',')
+        location ('paymentrecords.csv'));
 
 insert into customer
 values (1,'Chris','Harms','3255 Dbms Lane','Templeville','PA',19121,6969696969,'chisiscool@temple.edu');
