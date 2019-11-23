@@ -13,6 +13,7 @@ organization external (
         default directory paymentrecords_dir
         access parameters (fields terminated by ',')
         location ('paymentrecords.csv'));
+        
 
 insert into customer
 values (1,'Chris','Harms','3255 Dbms Lane','Templeville','PA',19121,6969696969,'chisiscool@temple.edu');
@@ -20,6 +21,11 @@ insert into customer
 values (2,'Joe','Shmoe','4222 Clinton Way','Intercourse','PA',18076,1234567890,'dude@temple.edu');
 insert into customer
 values (3,'Peter','Parker','123 Spidey Street','Forest Hills','NY',17026,9083761468,'spiderboi@temple.edu');
+alter table customer 
+add university varchar2(30);
+update customer set university = 'Temple University' where customerid = 1;
+update customer set university = 'Penn State University' where customerid = 2;
+update customer set university = 'UCLA' where customerid = 3;
 
 insert into employee
 values (1,'John','Doe',1000000,'Box Packer Guy',1);
@@ -27,6 +33,15 @@ insert into employee
 values (2,'Jane','Doe',1000001,'Warehouse Staff',1);
 insert into employee
 values (3,'Mike','Hick',1001,'Contact Sponsors',2);
+
+insert into "Order"
+values (1,'04-FEB-18',1,1);
+insert into "Order"
+values (2,'24-AUG-18',2,1);
+insert into "Order"
+values (3,'11-JUN-19',3,1);
+insert into "Order"
+values (4,'13-MAR-19',2,1);
 
 insert into vendor
 values (1,'Nice Electronics LLC.','Matt','Long',4789213409,'101 Electric Ave','Electric City','PA',10234);

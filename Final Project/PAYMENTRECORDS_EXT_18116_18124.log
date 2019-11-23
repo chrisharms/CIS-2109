@@ -1,0 +1,42 @@
+
+
+ LOG file opened at 11/22/19 11:30:15
+
+Field Definitions for table PAYMENTRECORDS_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PAYMENTID                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PAYMENTAMOUNT                   CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PAYMENTDATE                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRSTDEPOSITDATE                CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FINALPAYMENTDUEDATE             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    REMAININGBALANCE                CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ORDER_ORDERID                   CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PAYMENTPLAN_PAYMENTPLANID       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table PAYMENTRECORDS_EXT
+  Max Size:      1000
+  Entries :         5
+  Hits    :         4
+  Misses  :         0
+
