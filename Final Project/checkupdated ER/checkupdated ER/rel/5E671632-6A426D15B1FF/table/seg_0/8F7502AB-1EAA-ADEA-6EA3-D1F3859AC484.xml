@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F7502AB-1EAA-ADEA-6EA3-D1F3859AC484" name="SponsoredProducts">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>5472B97C-4B49-060A-3931-76912C763FC1</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ProductID" id="5EAAF439-4C0A-202B-A295-DE8402AFF577">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>3F2EB860-3710-8C54-CD92-95A7B89C0CBA</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D1B044-DF8B-83E8-8713-25558F06B67F" referredColumn="1E5C8442-0C48-8834-5B3D-44C63FCB5A6A"/>
+</associations>
+</Column>
+<Column name="Sponsor_SponsorID" id="1DE8186A-ACCC-F9A8-AC8A-7ADA6B6328E9">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>53F5F1BB-7C8C-1D25-C3CE-A323296BD1D5</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF9911F-7582-47A7-9EF2-6523C41BAE50" referredColumn="5D54BA9F-1547-FA90-D187-6B91ACF4A01C"/>
+</associations>
+</Column>
+<Column name="ProductQuantity" id="1D3BFE2C-455C-25D6-5265-0169A6399A13">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>C3F922BB-366F-9272-47F8-6D8DD31FEA64</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E619023-5AB4-E0B2-4EA0-B5AD7FADFCF3" name="SponsoredProducts_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>12209BEF-02B0-3298-C709-14B40E2BFDA1</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAAF439-4C0A-202B-A295-DE8402AFF577"/>
+<colUsage columnID="1DE8186A-ACCC-F9A8-AC8A-7ADA6B6328E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD9EC1A-8CF3-C011-DF7A-50DEA9635C02" name="SponsoredProducts_Product_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>43DD264B-0978-6EE6-CA3C-2C78BCA0E383</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAAF439-4C0A-202B-A295-DE8402AFF577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C4721F0-F3AC-64A2-EC50-980ED5F6ADCD" name="SponsoredProducts_Sponsor_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>37DB33DE-7A29-92E0-20BA-DFE1A5E91A18</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DE8186A-ACCC-F9A8-AC8A-7ADA6B6328E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

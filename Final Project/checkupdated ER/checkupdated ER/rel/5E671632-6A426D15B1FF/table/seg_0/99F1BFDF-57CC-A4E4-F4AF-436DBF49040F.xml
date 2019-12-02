@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F1BFDF-57CC-A4E4-F4AF-436DBF49040F" name="OrderLine">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>CE6508C4-3994-7490-263B-01C91EF0FE7D</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_OrderID" id="FB3981E3-86E1-8343-8A1F-14BB6DF7C9C8">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>21471B41-D086-1919-8F4B-A322263F722D</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B7FA325-D4D2-2597-B74B-3AE9E29CCFA9" referredColumn="3C59CA85-C212-CAAD-5676-04F0CB7262A2"/>
+</associations>
+</Column>
+<Column name="Product_ProductID" id="895393B8-1236-F79F-E69C-456EE7F277EB">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>F96D1BA3-AA5F-EB55-8B7B-E74D5AD7E1F9</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="821C73DA-F4B8-489B-52BF-4B8EFBC6BC37" referredColumn="1E5C8442-0C48-8834-5B3D-44C63FCB5A6A"/>
+</associations>
+</Column>
+<Column name="OrderedQuantity" id="5857A17F-C3CA-A6E5-6804-7D011AB3AA5B">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>5B5BA1EA-AB75-74A0-37A4-F2DAF4608DFE</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AF30FF5-D37A-E513-CCB1-3611535C3030" name="OrderLine_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>2142E27D-ADC9-00F5-C3C7-EE0812ECAAB8</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="895393B8-1236-F79F-E69C-456EE7F277EB"/>
+<colUsage columnID="FB3981E3-86E1-8343-8A1F-14BB6DF7C9C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665BEE19-6010-8270-D327-6192AB735F12" name="OrderLine_Product_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>1C1CE452-D986-47BC-D764-423E065F9350</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="895393B8-1236-F79F-E69C-456EE7F277EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FD7402F-46E0-FE76-F292-C52D81E16596" name="OrderLine_Order_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>82414BF9-95D8-21E2-6257-96FB232E72D5</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3981E3-86E1-8343-8A1F-14BB6DF7C9C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEEDEF7A-B8EA-803D-AF89-5B9A0BABD489" containerWithKeyObject="802AEB85-E192-503D-35C2-F10F61047E17" localFKIndex="66615C3C-D76B-222D-E92B-92EE949E62A7" name="PaymentRecords_Order_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>166FC017-5236-93C2-D38A-5F4F42AA184A</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<referredTableLongName>Order</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C9A39C0-F82A-3FF9-F8D8-159BD68C9C03</referredTableID>
+<keyObject>EC2CBBDC-EE98-2EA5-4E52-82DD85F0962E</keyObject>
+<referredKeyID>EC2CBBDC-EE98-2EA5-4E52-82DD85F0962E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OrderID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B73D6400-78DD-25E6-E460-4AE47CA264B9" name="Shipment">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>E20F7405-FA5D-C944-0395-61EBEC018DF7</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ShipmentID" id="B74D8E17-7644-053F-7D73-DF199599DBE7">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>D3252BDE-5F0F-F7EB-8F1C-986359712C18</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryDate" id="C0651227-B709-7406-12FF-CB2888A89D94">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>1CFCDBF7-F294-4FCC-BC22-5ABD9230DD85</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_OrderID" id="32DC973A-7F80-9DBC-0626-95D96E4E7FE8">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>187DAB6E-56F8-3A6D-61F9-6D9DC01D8978</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="789AFEB7-3329-090A-A461-E53ECB2C7DDD" referredColumn="3C59CA85-C212-CAAD-5676-04F0CB7262A2"/>
+</associations>
+</Column>
+<Column name="Product_ProductID" id="94C912F4-5C78-27FB-66C4-8C290A98E40C">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>566F2666-94A4-2F38-3062-1725ABC92321</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8DA30F6-F5B5-703E-48A0-ED0D9D9B0A02" referredColumn="1E5C8442-0C48-8834-5B3D-44C63FCB5A6A"/>
+</associations>
+</Column>
+<Column name="ProductQuantity" id="34D658FA-8713-B2EA-EEFF-BAA281B42E68">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>4BE4BE9E-8FEF-8BDB-EA62-AA3615132603</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93162FE5-1273-56FB-C03B-8ED391F99842" name="Shipment_PK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>F232B488-11A0-8822-74C5-834D0A6B7A9C</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74D8E17-7644-053F-7D73-DF199599DBE7"/>
+<colUsage columnID="32DC973A-7F80-9DBC-0626-95D96E4E7FE8"/>
+<colUsage columnID="94C912F4-5C78-27FB-66C4-8C290A98E40C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55200043-CDFB-C2A4-2D60-FB3B751AD8E0" name="Shipment_Order_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>8CB43ED8-D2C4-F85A-AFBF-4C825BA7DF45</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32DC973A-7F80-9DBC-0626-95D96E4E7FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BD5CD31-6FF6-4D2C-629A-E552EB4FFFAF" name="Shipment_Product_FK">
+<createdBy>charm</createdBy>
+<createdTime>2019-12-02 03:10:52 UTC</createdTime>
+<generatorID>255F3D06-DE62-A5B8-75C8-CF159C3A4459</generatorID>
+<ownerDesignName>checkupdated ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C912F4-5C78-27FB-66C4-8C290A98E40C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
