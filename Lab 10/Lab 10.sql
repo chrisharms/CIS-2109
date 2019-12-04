@@ -27,15 +27,14 @@ create table Sales_Fact (
     salesdatekey        number not null,
     productkey          number(4,0) not null,
     ordersalesprice     number not null,
-    constraint salesfact_pk primary key(salesdatekey,productkey),
     CONSTRAINT salesfact_productdim_fk FOREIGN KEY (productkey)
         REFERENCES product_dim (productkey),
     constraint salesfact_datedim_fk foreign key (salesdatekey)
         references date_dim (datekey));
 drop table sales_fact;
 
---insert into sales_fact     
-select d.datekey, pd.productkey,o.orderid, p.productstandardprice*l.orderedquantity as ordersalesprice
+insert into sales_fact     
+select d.datekey, pd.productkey, p.productstandardprice*l.orderedquantity as ordersalesprice
 from order_t o join date_dim d
 on o.orderdate = d.datevalue
 join orderline_t l
@@ -44,4 +43,3 @@ join product_dim pd
 on l.productid = pd.productid
 join product_t p
 on pd.productid = p.productid;
-
